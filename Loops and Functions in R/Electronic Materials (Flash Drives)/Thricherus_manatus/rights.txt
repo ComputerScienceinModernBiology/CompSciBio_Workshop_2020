@@ -1,0 +1,91 @@
+
+Dataset: Mammal specimens
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: TTU Mammals Collection
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: UCM Mammal Collection (Arctos)
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: PSM Vertebrates Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: NMNH Paleobiology Specimen Records
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: CRCM Vertebrate Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: CHAS Mammalogy Collection (Arctos)
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: DMNS Mammal Collection (Arctos)
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: CM Vertebrate Paleontology Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: University of Michigan Museum of Zoology, Division of Mammals
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: SBMNH Vertebrate Zoology
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Ohio State University Tetrapod Division - Mammal Collection (OSUM)
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Naturhistorisches Museum Mainz, Zoological Collection
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: LSUMZ Mammals Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: CNMA/Colección Nacional de mamíferos
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: USGS Patuxent Wildlife Research Center Seabirds Compendium
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Biodiversity Research and Teaching Collections - TCWC Vertebrates
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Canadian Museum of Nature Mammal Collection
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: MVZ Mammal Collection (Arctos)
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Angelo State Natural History Collections (ASNHC) Mammal specimens (Arctos)
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: UAM Mammal Collection (Arctos)
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: HSU Vertebrate Museum Mammals Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Natural History Museum (London) Collection Specimens
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Vertebrate Zoology Division - Mammalogy, Yale Peabody Museum
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: KUBI Mammalogy Collection
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Paleobiology Database
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Palaeobiology - Vertebrate Comparative Osteology Collection - Royal Ontario Museum
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Field Museum of Natural History (Zoology) Mammal Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Diveboard - Scuba diving citizen science observations
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Macaulay Library Audio and Video Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: naturgucker
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: AMNH Mammal Collections
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Mammals Specimens
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: MSB Mammal Collection (Arctos)
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: UWBM Mammalogy Collection (Arctos)
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Mammalogy Collection - Royal Ontario Museum
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Museum of Comparative Zoology, Harvard University
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: CAS Mammalogy (MAM)
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: LACM Vertebrate Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: NCSM Mammals Collection
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Palaeobiology - Vertebrate Fossils Collection - Mammalia - Royal Ontario Museum
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: NatureServe Network Species Occurrence Data
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: NMNH Extant Specimen Records
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: University of Florida Vertebrate Paleontology
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: iNaturalist Research-grade Observations
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode

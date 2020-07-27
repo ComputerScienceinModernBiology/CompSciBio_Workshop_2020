@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="66f6192f-6cc0-45fd-a2d1-e76f5ae3eab2"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/tnjrgy</alternateIdentifier>
+        <alternateIdentifier>https://ipt.diveboard.com/resource?r=diveboard-occurrences</alternateIdentifier>
+        <alternateIdentifier>http://ipt.diveboard.com/resource?r=diveboard-occurrences</alternateIdentifier>
+        <alternateIdentifier>http://ipt.diveboard.com/resource.do?r=diveboard-occurrences</alternateIdentifier>
+        <alternateIdentifier>66f6192f-6cc0-45fd-a2d1-e76f5ae3eab2</alternateIdentifier>
+    <title>Diveboard - Scuba diving citizen science observations</title>
+    <creator>
+    <individualName>
+<givenName>Alexander</givenName>          <surName>Casassovici</surName>
+    </individualName>
+<organizationName>Diveboard</organizationName><positionName>Chief Diveboarder</positionName>    <address>
+<city>Neuilly sur Seine</city><postalCode>92200</postalCode><country>FRANCE</country>    </address>
+<phone>+33695033446</phone><electronicMailAddress>alex@diveboard.com</electronicMailAddress><onlineUrl>http://www.diveboard.com</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Dimitri</givenName>          <surName>Brosens</surName>
+    </individualName>
+<organizationName>Datafable</organizationName><positionName>Contributor</positionName>    <address>
+<country>BELGIUM</country>    </address>
+<electronicMailAddress>dimibrosens@gmail.com</electronicMailAddress>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Alexander</givenName>          <surName>Casassovici</surName>
+    </individualName>
+<organizationName>Diveboard</organizationName><positionName>Chief Diveboarder</positionName>    <address>
+<city>Neuilly sur Seine</city><postalCode>92200</postalCode><country>FRANCE</country>    </address>
+<electronicMailAddress>alex@diveboard.com</electronicMailAddress><onlineUrl>http://www.diveboard.com</onlineUrl>    <role>OWNER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Dimitri</givenName>          <surName>Brosens</surName>
+    </individualName>
+<organizationName>Datafable</organizationName><positionName>Contributor</positionName>    <address>
+<country>BELGIUM</country>    </address>
+<electronicMailAddress>dimibrosens@gmail.com</electronicMailAddress>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Peter</givenName>          <surName>Desmet</surName>
+    </individualName>
+<organizationName>Datafable</organizationName><positionName>Contributor</positionName>    <address>
+<country>BELGIUM</country>    </address>
+<electronicMailAddress>peter.desmet@gmail.com</electronicMailAddress><onlineUrl>http://peterdesmet.com</onlineUrl>    <role>PROCESSOR</role>
+    </associatedParty>
+      <pubDate>
+      2020-07-14
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>Diveboard (https://www.diveboard.com/) is an online scuba diving citizen science platform, where divers can digitize or log their dives, participate in citizen science surveys and projects, and interact with others. More then 10,000 divers have already registered with Diveboard and the community is still growing. This dataset contains all observations made by Diveboarders worldwide (mainly fishes) and are linked to the Encyclopedia of Life. The Diveboard community has dedicated the data to the public domain under a Creative Commons Zero waiver, so these can be used as widely as possible. If you have a specific survey need or question, get in touch: Diveboarders are everywhere and willing to help!</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Observation</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>reef</keyword>
+              <keyword>scuba diving</keyword>
+              <keyword>citizen science</keyword>
+              <keyword>freshwater</keyword>
+              <keyword>fishes</keyword>
+              <keyword>marine</keyword>
+              <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>The data is collected with the help of divers all around the world. If you have questions regarding surveying specific dive sites, you can contact us at support@diveboard.com and we will see what we can do. The dataset was standardized, documented and published with the help of Datafable, a team of open data volunteers. The process is documented here: https://github.com/Datafable/diveboard-gbif</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://www.diveboard.com</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Diveboarders are everywhere on the planet!</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <generalTaxonomicCoverage>The dataset covers animals (and very few plants) observed during scuba dives performed by members of the Diveboard community. Close to 80% of the observations are fishes (Actinopterygii and Elasmobranchii). Diveboarders can log their dives online, including the species they observed, using the Encyclopedia of Life (http://eol.org) as a checklist. Most of the observations are identified to species level, though some caution regarding the identifications is appropriate. In case of doubt, the observer/identifier can be contacted via the references field, which references his/her Diveboard profile.</generalTaxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Animalia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Actinopterygii</taxonRankValue>
+                          <commonName>ray-finned fishes</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Elasmobranchii</taxonRankValue>
+                          <commonName>sharks, rays &amp; skates</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Subphylum</taxonRankName>
+                        <taxonRankValue>Crustacea</taxonRankValue>
+                          <commonName>Crustaceans</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Anthozoa</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Cnidaria</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Mollusca</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Echinodermata</taxonRankValue>
+                          <commonName>Echinoderms</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Chordata</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Testudines</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Reptilia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Plantae</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Rhodophyta</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <purpose>
+          <para>Diveboarders share their data with the desire to help the scientific community in research towards protecting the biodiversity of our oceans, seas, and freshwater bodies. So far, he data are not generated with any overarching purpose, other than completing ones personal digital log of dives.</para>
+      </purpose>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>weekly</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Dimitri</givenName>          <surName>Brosens</surName>
+    </individualName>
+<organizationName>Datafable</organizationName><positionName>Contributor</positionName>    <address>
+<country>BELGIUM</country>    </address>
+<electronicMailAddress>dimibrosens@gmail.com</electronicMailAddress>      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para>Event and location conditions (date, time, depth, etc.) are often logged automatically by the dive computer. This data can be imported or manually added by the diver in the Diveboard application, while observed species are added manually. These actions can be done just after surfacing, as the Diveboard application is available online and as a mobile app, which allows divers to record their dive even if no internet connection is available.</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>The dataset covers recorded observations made during scuba dives performed by members of the Diveboard community. As such there is no specific geographic or temporal study extent, although most dives logged on Diveboard were conducted in well known divespots, such as reefs and wrecks. In a later phase, specific surveys might also be logged on Diveboard.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>Observations are not recorded with a specific goal in mind and only reflect what the diver has noticed during the dive. Divers rarely conduct a full inventory of a dive spot, so the observed species only represent part of the occurring species at the time of the dive. There is a sampling bias for known, interesting, noticeable and/or rare species.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>The Diveboard application restricts divers to only record species found in the Encyclopedia of Life (http://eol.org). As such, all observations are linked to an EOL page in the field taxonID. It is important to note that the data are not validated by specialists.</para>
+                </description>
+            </qualityControl>
+      </methods>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:53Z</dateStamp>
+      <citation identifier="http://www.diveboard.com">Casassovici A, Brosens D (2020). Diveboard - Scuba diving citizen science observations. Version 54.27. Diveboard. Occurrence dataset https://doi.org/10.15468/tnjrgy accessed via GBIF.org on 2020-07-22.</citation>
+              <physical>
+                  <objectName>GBIF data portal</objectName>
+                  <characterEncoding>UTF-8</characterEncoding>
+                  <dataFormat>
+                      <externallyDefinedFormat>
+                          <formatName>various formats</formatName>
+                      </externallyDefinedFormat>
+                  </dataFormat>
+                  <distribution>
+                      <online>
+                          <url function="download">http://www.gbif.org/dataset/66f6192f-6cc0-45fd-a2d1-e76f5ae3eab2</url>
+                      </online>
+                  </distribution>
+              </physical>
+              <resourceLogoUrl>http://ipt.diveboard.com/logo.do?r=diveboard-occurrences</resourceLogoUrl>
+              <livingTimePeriod>1970-recent</livingTimePeriod>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

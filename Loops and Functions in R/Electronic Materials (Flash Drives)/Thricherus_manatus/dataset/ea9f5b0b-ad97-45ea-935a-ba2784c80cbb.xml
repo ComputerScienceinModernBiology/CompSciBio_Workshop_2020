@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="ea9f5b0b-ad97-45ea-935a-ba2784c80cbb"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/jkjbew</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource.do?r=ncsm_mammals</alternateIdentifier>
+        <alternateIdentifier>ea9f5b0b-ad97-45ea-935a-ba2784c80cbb</alternateIdentifier>
+    <title>NCSM Mammals Collection</title>
+    <creator>
+    <individualName>
+<givenName>Ben</givenName>          <surName>Norton</surName>
+    </individualName>
+<organizationName>North Carolina Museum of Natural Sciences</organizationName><positionName>Collections Data Curator</positionName>    <address>
+<deliveryPoint>11 West Jones Street</deliveryPoint><city>Raleigh</city><administrativeArea>NC</administrativeArea><postalCode>27601</postalCode><country>UNITED_STATES</country>    </address>
+<phone>919-707-9947</phone><electronicMailAddress>ben.norton@naturalsciences.org</electronicMailAddress>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Ben</givenName>          <surName>Norton</surName>
+    </individualName>
+<organizationName>North Carolina Museum of Natural Sciences</organizationName><positionName>Collections Data Curator</positionName>    <address>
+<deliveryPoint>11 West Jones Street</deliveryPoint><city>Raleigh</city><administrativeArea>NC</administrativeArea><postalCode>27601</postalCode><country>UNITED_STATES</country>    </address>
+<phone>919-707-9947</phone><electronicMailAddress>ben.norton@naturalsciences.org</electronicMailAddress>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Programmer</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress><onlineUrl>http://www.vertnet.org</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Coordinator</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress><onlineUrl>http://www.vertnet.org</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>John</givenName>          <surName>Wieczorek</surName>
+    </individualName>
+<organizationName>Museum of Vertebrate Zoology at UC Berkeley</organizationName><positionName>Information Architect</positionName><electronicMailAddress>tuco@berkeley.edu</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+      <pubDate>
+      2016-07-28
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The North Carolina Museum of Natural Sciences&amp;#39; Mammal Unit collection contains approximately 20,000 specimens and is one of the largest regional mammal collections in the southeast. The collection was accredited in 2000 by the American Society of Mammalogists. With early acquisitions from the Brimley brothers in the late 1800’s, the collection consists of 42% North Carolina, 81% Southeastern United States, 96% United States material, with the remainder having North American or other international origin. It encompasses the taxonomic units of 20 orders, 73 families, 237 genera, and over 500 unique Genus-species combinations. Holdings are especially strong in Rodentia, Soricimorpha, Chiroptera, Carnivora, Cetacea and Sirenia. Important recent acquisitions include University of Kentucky, George Mason University, University of North Carolina Chapel Hill and personal collections. The collection includes study skins, tanned hides, skulls, complete skeletons, fluid-preserved material, tissues for molecular analyses, and other materials.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://collections.naturalsciences.org/searchMammals.aspx</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>The Mammals collection contains specimens from 38 countries.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Animalia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Chordata</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Mammalia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Artiodactyla</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Carnivora</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Cetacea</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Chiroptera</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Didelphimorphia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Diprotodontia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Erinaceomorpha</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Hyracoidea</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Lagomorpha</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Macroscelidea</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Monotremata</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Perissodactyla</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Pholidota</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Pilosa</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Primates</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Proboscidea</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Rodentia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Sirenia</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Soricomorpha</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Order</taxonRankName>
+                        <taxonRankValue>Xenarthra</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <contact>
+    <individualName>
+<givenName>Lisa</givenName>          <surName>Gatens</surName>
+    </individualName>
+<organizationName>North Carolina Museum of Natural Sciences</organizationName><positionName>Curator of Mammals</positionName>    <address>
+<deliveryPoint>11 West Jones Street</deliveryPoint><city>Raleigh</city><administrativeArea>NC</administrativeArea><postalCode>27601</postalCode><country>UNITED_STATES</country>    </address>
+<phone>919-707-9946</phone><electronicMailAddress>lisa.gatens@naturalsciences.org</electronicMailAddress>      </contact>
+      <contact>
+    <individualName>
+<givenName>Benjamin</givenName>          <surName>Hess</surName>
+    </individualName>
+<organizationName>North Carolina Museum of Natural Sciences</organizationName><positionName>Collections Manager of Mammals</positionName>    <address>
+<deliveryPoint>11 West Jones Street</deliveryPoint><city>Raleigh</city><administrativeArea>NC</administrativeArea><postalCode>27601</postalCode><country>UNITED_STATES</country>    </address>
+<phone>919-707-9944</phone><electronicMailAddress>benjamin.hess@naturalsciences.org</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:54Z</dateStamp>
+      <citation>Norton B (2016). NCSM Mammals Collection. North Carolina State Museum of Natural Sciences. Occurrence dataset https://doi.org/10.15468/jkjbew accessed via GBIF.org on 2020-07-22.</citation>
+              <collection>
+                <parentCollectionIdentifier>Not applicable</parentCollectionIdentifier>
+                <collectionIdentifier>NCSM-Mammals</collectionIdentifier>
+                <collectionName>Mammals Collection of the North Carolina Museum of Natural Sciences</collectionName>
+              </collection>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

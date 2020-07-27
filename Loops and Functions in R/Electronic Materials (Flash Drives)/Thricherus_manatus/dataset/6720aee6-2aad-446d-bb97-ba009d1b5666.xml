@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="6720aee6-2aad-446d-bb97-ba009d1b5666"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/hw4khc</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource.do?r=cm_vertpaleo</alternateIdentifier>
+        <alternateIdentifier>6720aee6-2aad-446d-bb97-ba009d1b5666</alternateIdentifier>
+    <title>CM Vertebrate Paleontology Collection</title>
+    <creator>
+    <individualName>
+<givenName>Amy</givenName>          <surName>Henrici</surName>
+    </individualName>
+<organizationName>Carnegie Museum of Natural History</organizationName><positionName>Collection Manager</positionName>    <address>
+<deliveryPoint>4400 Forbes Avenue</deliveryPoint><city>Pittsburgh</city><administrativeArea>PA</administrativeArea><postalCode>15213–4080</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 (412) 622.1915</phone><electronicMailAddress>henricia@carnegiemnh.org</electronicMailAddress><onlineUrl>http://www.carnegiemnh.org</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Amy</givenName>          <surName>Henrici</surName>
+    </individualName>
+<organizationName>Carnegie Museum of Natural History</organizationName><positionName>Collection Manager</positionName>    <address>
+<deliveryPoint>4400 Forbes Avenue</deliveryPoint><city>Pittsburgh</city><administrativeArea>PA</administrativeArea><postalCode>15213–4080</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 (412) 622.1915</phone><electronicMailAddress>henricia@carnegiemnh.org</electronicMailAddress><onlineUrl>http://www.carnegiemnh.org</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Programmer</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress><onlineUrl>http://www.vertnet.org</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Coordinator</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress><onlineUrl>http://www.vertnet.org</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>John</givenName>          <surName>Wieczorek</surName>
+    </individualName>
+<organizationName>Museum of Vertebrate Zoology at UC Berkeley​</organizationName><positionName>Information Architect</positionName><electronicMailAddress>tuco@berkeley.edu</electronicMailAddress><onlineUrl>http://www.vertnet.org</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+      <pubDate>
+      2016-07-26
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The collection of fossil vertebrates at Carnegie Museum of Natural History is the fourth largest in North America. It currently holds over 100,000 specimens with a worldwide distribution, representing all vertebrate classes from the Silurian to the Pleistocene. This collection was acquired primarily through over a century of field work by section staff and associates as well as acquisitions by the Museum. Fossil collecting began in 1895 with the sponsorship of Mr. Andrew Carnegie, who supported the museum’s numerous early expeditions to the American West that resulted in one of the best dinosaur collections in the world. Carnegie in his retirement further strengthened the collection with the purchase in 1903 of a large collection of Paleozoic-Cenozoic, European fossils from the Baron de Bayet, a private fossil collector from Brussels, Belgium. Strengths of the collection include Mississippian fishes from Bear Gulch, Montana; Pennsylvanian and Permian fishes, amphibians and reptiles from the tri-state region of Pennsylvania, Ohio, and West Virginia and the southwestern United States; Jurassic dinosaurs, especially sauropods, from Utah (Dinosaur National Monument) and Wyoming; Jurassic fishes and reptiles from Germany and France; Eocene fishes from Monte Bolca, Italy; Eocene mammals, reptiles, and amphibians from central Wyoming and Utah; Miocene mammals from a site now preserved as Agate Springs Fossil Beds National Monument, Nebraska; and Pleistocene vertebrates from the Appalachian region.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>The collection holds specimens from all continents of the world.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <generalTaxonomicCoverage>Approximately 70% of the collection is cataloged (~80,000 specimens), and it continues to grow through field collection, acquisitions, and donations. The collection includes the following major groups ranked as Class in the database: Agnatha, (30 cataloged specimens), Placodermi (99 cataloged specimens), Chondrichthyes (2,259 cataloged specimens), Acanthodii (190 cataloged specimens), Actinopterygii (4,175 cataloged specimens), Sarcopterygii (2,833 cataloged specimens), Amphibia (2,178 cataloged specimens), Reptilia (3,639 cataloged specimens), Aves (434 cataloged specimens), and Mammalia (63,682 cataloged specimens).</generalTaxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Subphylum</taxonRankName>
+                        <taxonRankValue>Vertebrata</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <contact>
+    <individualName>
+<givenName>Amy</givenName>          <surName>Henrici</surName>
+    </individualName>
+<organizationName>Carnegie Museum of Natural History</organizationName><positionName>Collection Manager</positionName>    <address>
+<deliveryPoint>4400 Forbes Avenue</deliveryPoint><city>Pittsburgh</city><administrativeArea>PA</administrativeArea><postalCode>15213–4080</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 (412) 622.1915</phone><electronicMailAddress>henricia@carnegiemnh.org</electronicMailAddress><onlineUrl>http://www.carnegiemnh.org</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:51Z</dateStamp>
+      <citation>Henrici A (2016). CM Vertebrate Paleontology Collection. Carnegie Museums. Occurrence dataset https://doi.org/10.15468/hw4khc accessed via GBIF.org on 2020-07-22.</citation>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

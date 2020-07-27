@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="b6015b60-6f96-43a9-88e5-2f41854e8f07"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/szomia</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource?r=tcwc_verts</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource.do?r=tcwc_verts</alternateIdentifier>
+        <alternateIdentifier>b6015b60-6f96-43a9-88e5-2f41854e8f07</alternateIdentifier>
+        <alternateIdentifier>14379</alternateIdentifier>
+    <title>Biodiversity Research and Teaching Collections - TCWC Vertebrates</title>
+    <creator>
+    <individualName>
+<givenName>Heather</givenName>          <surName>Prestridge</surName>
+    </individualName>
+<organizationName>Texas A&amp;M University Biodiversity Research and Teaching Collections</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>Department of Wildlife and Fisheries Sciences, TAMU 2258</deliveryPoint><city>College Station</city><administrativeArea>TX</administrativeArea><postalCode>77843</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 (979) 845-5783</phone><electronicMailAddress>hlprestridge@tamu.edu</electronicMailAddress><onlineUrl>http://brtc.tamu.edu</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Heather</givenName>          <surName>Prestridge</surName>
+    </individualName>
+<organizationName>Texas A&amp;M University Biodiversity Research and Teaching Collections</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>Department of Wildlife and Fisheries Sciences, TAMU 2258</deliveryPoint><city>College Station</city><administrativeArea>TX</administrativeArea><postalCode>77843</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 (979) 845-5783</phone><electronicMailAddress>hlprestridge@tamu.edu</electronicMailAddress><onlineUrl>http://brtc.tamu.edu</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Laura</givenName>          <surName>Russell</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Programmer</positionName><electronicMailAddress>larussell@vertnet.org</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Coordinator</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>John</givenName>          <surName>Wieczorek</surName>
+    </individualName>
+<organizationName>Museum of Vertebrate Zoology at Berkeley</organizationName><positionName>Information Architect</positionName><electronicMailAddress>tuco@berkeley.edu</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Heather</givenName>          <surName>Prestridge</surName>
+    </individualName>
+<organizationName>Biodiversity Research and Teaching Collections</organizationName><positionName>Curator</positionName><electronicMailAddress>brtc@tamu.edu</electronicMailAddress><onlineUrl>http://brtc.tamu.edu</onlineUrl>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Toby</givenName>          <surName>Hibbitts</surName>
+    </individualName>
+<organizationName>Biodiversity Research and Teaching Collections</organizationName><positionName>Curator</positionName><electronicMailAddress>thibbitts@tamu.edu</electronicMailAddress><onlineUrl>http://brtc.tamu.edu</onlineUrl>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+      <pubDate>
+      2019-06-27
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Biodiversity Research and Teaching Collections (formerly the Texas Cooperative Wildlife Collection - TCWC), is the natural history collection maintained by the Department of Wildlife and Fisheries Sciences, Texas A&amp;amp;M University in College Station Texas.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>amphibians
+reptiles
+fishes
+mammals
+birds</keyword>
+              <keywordThesaurus>Voucher specimens</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>amphibians
+reptiles
+fishes
+mammals
+birds</keyword>
+              <keywordThesaurus>Tissue samples</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Museum specimens
+Voucher specimens</keyword>
+              <keywordThesaurus>General</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>In most cases geospatial data are available for specimens in our collection. To request more detailed locality information please contact us.
+
+http://vertnet.org/resources/norms.html</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://brtc.tamu.edu</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Collection geographic strengths are Texas, United States, Mexico, Central and South America. Aquatic holdings are strong from Gulf of Mexico, Atlantic Ocean, and freshwater locals as above.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>      1877
+</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate>      1877
+</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+              <taxonomicCoverage>
+                    <generalTaxonomicCoverage>Biodiversity Research and Teaching Collections (TCWC Vertebrates) include collections of birds, mammals, amphibians, reptiles, and fishes.</generalTaxonomicCoverage>
+                    <taxonomicClassification>
+                        <taxonRankValue>Birds</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                        <taxonRankValue>Mammals</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                        <taxonRankValue>Fishes</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                        <taxonRankValue>Reptiles</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                        <taxonRankValue>Amphibians</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Heather</givenName>          <surName>Prestridge</surName>
+    </individualName>
+<organizationName>Texas A&amp;M University Biodiversity Research and Teaching Collections</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>Department of Wildlife and Fisheries Sciences, TAMU 2258</deliveryPoint><city>College Station</city><administrativeArea>TX</administrativeArea><postalCode>77843</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 (979) 845-5783</phone><electronicMailAddress>hlprestridge@tamu.edu</electronicMailAddress><onlineUrl>http://brtc.tamu.edu</onlineUrl>      </contact>
+
+      <project >
+          <title>Biodiversity Research and Teaching Collections</title>
+          <personnel>
+    <individualName>
+<givenName>Heather</givenName>          <surName>Prestridge</surName>
+    </individualName>
+    <role>POINT_OF_CONTACT</role>
+          </personnel>
+          <abstract>
+              <para></para>
+          </abstract>
+          <funding>
+              <para></para>
+          </funding>
+      </project>
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:52Z</dateStamp>
+      <citation>Prestridge H (2019). Biodiversity Research and Teaching Collections - TCWC Vertebrates. Version 9.3. Texas A&amp;M University Biodiversity Research and Teaching Collections. Occurrence dataset https://doi.org/10.15468/szomia accessed via GBIF.org on 2020-07-22.</citation>
+              <collection>
+                <parentCollectionIdentifier>TCWC</parentCollectionIdentifier>
+                <collectionIdentifier>TCWC</collectionIdentifier>
+                <collectionName>Vertebrate Collection</collectionName>
+              </collection>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

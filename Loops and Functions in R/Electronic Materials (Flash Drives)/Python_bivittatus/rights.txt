@@ -1,0 +1,7 @@
+
+Dataset: International Barcode of Life project (iBOL)
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: iNaturalist Research-grade Observations
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: University of Florida Herpetology
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode

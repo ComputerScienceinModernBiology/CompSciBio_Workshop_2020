@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="377be098-626f-4cc2-b4b5-35700050669a"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/lbixob</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource?r=uam_mamm</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource.do?r=uam_mamm</alternateIdentifier>
+        <alternateIdentifier>377be098-626f-4cc2-b4b5-35700050669a</alternateIdentifier>
+        <alternateIdentifier>14861</alternateIdentifier>
+    <title>UAM Mammal Collection (Arctos)</title>
+    <creator>
+    <individualName>
+<givenName>Link</givenName>          <surName>Olson</surName>
+    </individualName>
+<organizationName>University of Alaska Museum</organizationName><positionName>Curator of Mammals</positionName>    <address>
+<deliveryPoint>907 Yukon Drive</deliveryPoint><city>Fairbanks</city><administrativeArea>AK</administrativeArea><postalCode>99775-6960</postalCode><country>UNITED_STATES</country>    </address>
+<phone>(907) 474-5998</phone><electronicMailAddress>leolson@alaska.edu</electronicMailAddress><onlineUrl>http://linkolson.org/</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Link</givenName>          <surName>Olson</surName>
+    </individualName>
+<organizationName>University of Alaska Museum</organizationName><positionName>Curator of Mammals</positionName>    <address>
+<deliveryPoint>907 Yukon Drive</deliveryPoint><city>Fairbanks</city><administrativeArea>AK</administrativeArea><postalCode>99775-6960</postalCode><country>UNITED_STATES</country>    </address>
+<phone>(907) 474-5998</phone><electronicMailAddress>leolson@alaska.edu</electronicMailAddress><onlineUrl>http://linkolson.org/</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Laura</givenName>          <surName>Russell</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Programmer</positionName><electronicMailAddress>larussell@vertnet.org</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<positionName>VertNet Coordinator</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>John</givenName>          <surName>Wieczorek</surName>
+    </individualName>
+<organizationName>Museum of Vertebrate Zoology at UC Berkeley</organizationName><positionName>Information Architect</positionName><electronicMailAddress>tuco@berkeley.edu</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Dusty</givenName>          <surName>McDonald</surName>
+    </individualName>
+<organizationName>University of Alaska Museum</organizationName><positionName>Arctos Database Programmer</positionName><electronicMailAddress>dlmcdonald@alaska.edu</electronicMailAddress><onlineUrl>http://arctos.database.museum</onlineUrl>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Aren</givenName>          <surName>Gunderson</surName>
+    </individualName>
+<organizationName>University of Alaska Museum</organizationName><positionName>Mammals Collection Manager</positionName>    <address>
+<deliveryPoint>907 Yukon Drive</deliveryPoint><city>Fairbanks</city><administrativeArea>AK</administrativeArea><postalCode>99775-6960</postalCode><country>UNITED_STATES</country>    </address>
+<phone>(907) 474-6947</phone><electronicMailAddress>amgunderson@alaska.edu</electronicMailAddress><onlineUrl>http://www.uaf.edu/museum/collections/mammal/staff/gunderson/</onlineUrl>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Kyndall</givenName>          <surName>Hildebrandt</surName>
+    </individualName>
+<organizationName>University of Alaska Museum</organizationName><positionName>Genomic Resources Collection Manager</positionName>    <address>
+<deliveryPoint>907 Yukon Drive</deliveryPoint><city>Fairbanks</city><administrativeArea>AK</administrativeArea><postalCode>99775-6960</postalCode><country>UNITED_STATES</country>    </address>
+<phone>(907) 474-6914</phone><electronicMailAddress>kbhildebrandt@alaska.edu</electronicMailAddress><onlineUrl>http://www.uaf.edu/museum/collections/mammal/staff/hildebrandt/</onlineUrl>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+      <pubDate>
+      2020-07-03
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The University of Alaska Museum (UAM) houses one of the 10 largest mammal collections in North America, with over 115,000 catalogued specimens. Over 90% of these are from Alaska and include unparalleled series of small mammals, carnivores, and marine mammals. Over 70,000 include frozen tissue samples housed in UAM&amp;#39;s Genomic Resources facility. An average of 1,000 specimens are loaned to researchers each year.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>http://vertnet.org/resources/norms.html</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://www.uaf.edu/museum/collections/mammal/</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>The UAM mammal collection is global in scope, with strongest representation from Alaska.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <generalTaxonomicCoverage>The UAM mammal collection is taxonomically synoptic but includes especially strong holdings of Rodentia, Soricomorpha, Carnivora, and Cetacea.</generalTaxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Mammalia</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Link</givenName>          <surName>Olson</surName>
+    </individualName>
+<organizationName>University of Alaska Museum</organizationName><positionName>Curator of Mammals</positionName>    <address>
+<deliveryPoint>907 Yukon Drive</deliveryPoint><city>Fairbanks</city><administrativeArea>AK</administrativeArea><postalCode>99775-6960</postalCode><country>UNITED_STATES</country>    </address>
+<phone>(907) 474-5998</phone><electronicMailAddress>leolson@alaska.edu</electronicMailAddress><onlineUrl>http://linkolson.org/</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:52Z</dateStamp>
+      <citation>Olson L (2020). UAM Mammal Collection (Arctos). Version 34.39. University of Alaska Museum of the North. Occurrence dataset https://doi.org/10.15468/lbixob accessed via GBIF.org on 2020-07-22.</citation>
+              <livingTimePeriod>1934 to present</livingTimePeriod>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

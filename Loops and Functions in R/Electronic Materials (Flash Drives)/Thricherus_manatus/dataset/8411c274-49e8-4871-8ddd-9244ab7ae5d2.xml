@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="8411c274-49e8-4871-8ddd-9244ab7ae5d2"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/evdcls</alternateIdentifier>
+        <alternateIdentifier>638</alternateIdentifier>
+    <title>Mammal specimens</title>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>SDNHM mammal specimens.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+    <individualName>
+<givenName>Phil</givenName>          <surName>Unitt</surName>
+    </individualName>
+<positionName>Birds and Mammals Curator</positionName><phone>+01 619-255-0235</phone><electronicMailAddress>punitt@sdnhm.org</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:51Z</dateStamp>
+      <citation>San Diego Natural History Museum. Mammal specimens. Version 1.0. Occurrence dataset https://doi.org/10.15468/evdcls accessed via GBIF.org on 2020-07-22.</citation>
+              <physical>
+                  <objectName>GBIF Occurrence Download</objectName>
+                  <characterEncoding>UTF-8</characterEncoding>
+                  <dataFormat>
+                      <externallyDefinedFormat>
+                          <formatName>Darwin Core Archive</formatName>
+                      </externallyDefinedFormat>
+                  </dataFormat>
+                  <distribution>
+                      <online>
+                          <url function="download">http://api.gbif.org/v1/occurrence/download/request/0015810-180131172636756.zip</url>
+                      </online>
+                  </distribution>
+              </physical>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

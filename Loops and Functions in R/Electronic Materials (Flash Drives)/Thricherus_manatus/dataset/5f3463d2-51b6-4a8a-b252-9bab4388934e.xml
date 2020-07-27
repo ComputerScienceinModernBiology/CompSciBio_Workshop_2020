@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="5f3463d2-51b6-4a8a-b252-9bab4388934e"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/bqvk9g</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource?r=dmns_mamm</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource.do?r=dmns_mamm</alternateIdentifier>
+        <alternateIdentifier>5f3463d2-51b6-4a8a-b252-9bab4388934e</alternateIdentifier>
+        <alternateIdentifier>14883</alternateIdentifier>
+    <title>DMNS Mammal Collection (Arctos)</title>
+    <creator>
+    <individualName>
+<givenName>John</givenName>          <surName>Demboski</surName>
+    </individualName>
+<organizationName>Denver Museum of Nature &amp; Science</organizationName><positionName>Curator of Vertebrate Zoology</positionName>    <address>
+<deliveryPoint>2001 Colorado Blvd.</deliveryPoint><city>Denver</city><administrativeArea>CO</administrativeArea><postalCode>80205-5798</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 303-370-6443</phone><electronicMailAddress>john.demboski@dmns.org</electronicMailAddress><onlineUrl>https://www.dmns.org/science/zoology/staff/john-demboski/</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>John</givenName>          <surName>Demboski</surName>
+    </individualName>
+<organizationName>Denver Museum of Nature &amp; Science</organizationName><positionName>Curator of Vertebrate Zoology</positionName>    <address>
+<deliveryPoint>2001 Colorado Blvd.</deliveryPoint><city>Denver</city><administrativeArea>CO</administrativeArea><postalCode>80205-5798</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 303-370-6443</phone><electronicMailAddress>john.demboski@dmns.org</electronicMailAddress><onlineUrl>https://www.dmns.org/science/zoology/staff/john-demboski/</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<positionName>VertNet Coordinator</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>John</givenName>          <surName>Wieczorek</surName>
+    </individualName>
+<organizationName>Museum of Vertebrate Zoology at UC Berkeley</organizationName><positionName>Information Architect</positionName><electronicMailAddress>tuco@berkeley.edu</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Dusty</givenName>          <surName>McDonald</surName>
+    </individualName>
+<organizationName>University of Alaska Museum</organizationName><positionName>Arctos Database Programmer</positionName><electronicMailAddress>dlmcdonald@alaska.edu</electronicMailAddress><onlineUrl>http://arctos.database.museum</onlineUrl>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Jeffrey</givenName>          <surName>Stephenson</surName>
+    </individualName>
+<organizationName>Denver Museum of Nature &amp; Science</organizationName><positionName>Collections Manager, Department of Zoology</positionName>    <address>
+<deliveryPoint>2001 Colorado Blvd.</deliveryPoint><city>Denver</city><administrativeArea>CO</administrativeArea><postalCode>80205-5798</postalCode><country>UNITED_STATES</country>    </address>
+<phone>303-370-8319</phone><electronicMailAddress>jeff.stephenson@dmns.org</electronicMailAddress><onlineUrl>https://www.dmns.org/science/zoology/staff/jeff-stephenson/</onlineUrl>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Andrew</givenName>          <surName>Doll</surName>
+    </individualName>
+<organizationName>Denver Museum of Nature &amp; Science</organizationName><positionName>Assistant Collections Manager, Department of Zoology</positionName>    <address>
+<deliveryPoint>2001 Colorado Blvd.</deliveryPoint><city>Denver</city><administrativeArea>CO</administrativeArea><postalCode>80205-5798</postalCode><country>UNITED_STATES</country>    </address>
+<phone>303-370-8387</phone><electronicMailAddress>andrew.doll@dmns.org</electronicMailAddress><onlineUrl>https://www.dmns.org/science/zoology/staff/andrew-doll/</onlineUrl>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+      <pubDate>
+      2020-07-09
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Denver Museum of Nature &amp;amp; Science Mammal Collection currently consists of approximately 21,000 specimens, which includes 20,000&amp;#43; cataloged specimens. The collection spans 1870 to the present, is worldwide in coverage, and includes specimens from the three major extant mammalian lineages (monotremes, marsupials, and placentals) distributed across 21 orders, 266 genera, and 381 species. The collection’s primary strength is its focus on the southern Rocky Mountains and Great Plains. Approximately 82% of the collection is from the western United States, with specimens from Colorado (73%) representing the largest percentage. Small mammals, such as shrews, rodents, lagomorphs, and bats, constitute the majority (84%) of specimens in the collection. The composition of the collection is primarily study skins and skeletal material, with a growing wet collection. High-quality specimen data, frozen tissues, and parasites are associated with most of the specimens archived since 2006.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>http://vertnet.org/resources/norms.html</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">https://www.dmns.org/science/zoology/zoology-collections/mammals/</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>The DMNS mammal collection is global, with the largest holdings from the Rocky Mountains and Great Plains region.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Mammalia</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <purpose>
+          <para>Natural History Research and Education</para>
+      </purpose>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>John</givenName>          <surName>Demboski</surName>
+    </individualName>
+<organizationName>Denver Museum of Nature &amp; Science</organizationName><positionName>Curator of Vertebrate Zoology</positionName>    <address>
+<deliveryPoint>2001 Colorado Blvd.</deliveryPoint><city>Denver</city><administrativeArea>CO</administrativeArea><postalCode>80205-5798</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 303-370-6443</phone><electronicMailAddress>john.demboski@dmns.org</electronicMailAddress><onlineUrl>https://www.dmns.org/science/zoology/staff/john-demboski/</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:51Z</dateStamp>
+      <citation>Demboski J (2020). DMNS Mammal Collection (Arctos). Version 34.39. Denver Museum of Nature &amp; Science. Occurrence dataset https://doi.org/10.15468/bqvk9g accessed via GBIF.org on 2020-07-22.</citation>
+              <livingTimePeriod>1850-present</livingTimePeriod>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

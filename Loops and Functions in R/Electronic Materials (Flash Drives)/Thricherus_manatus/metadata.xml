@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="10.15468/dl.s35fqk"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+        <alternateIdentifier>0026763-200613084148143</alternateIdentifier>
+    <title>GBIF Occurrence Download 10.15468/dl.s35fqk</title>
+    <creator>
+    <individualName>
+          <surName>GBIF Download Service</surName>
+    </individualName>
+<electronicMailAddress>support@gbif.org</electronicMailAddress>    </creator>
+    <metadataProvider>
+    <individualName>
+          <surName>GBIF Download Service</surName>
+    </individualName>
+<electronicMailAddress>support@gbif.org</electronicMailAddress>    </metadataProvider>
+      <pubDate>
+      2020-07-22
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>A dataset containing all occurrences available in GBIF matching the query:
+{
+  &quot;and&quot; : [ &quot;Country is United States of America&quot;, &quot;TaxonKey is Trichechus manatus Linnaeus, 1758&quot; ]
+}
+The dataset includes records from the following constituent datasets. The full metadata for each constituent is also included in this archive:
+1 records from Mammal specimens
+1 records from TTU Mammals Collection
+1 records from UCM Mammal Collection (Arctos)
+1 records from PSM Vertebrates Collection
+1 records from NMNH Paleobiology Specimen Records
+1 records from CRCM Vertebrate Collection
+1 records from CHAS Mammalogy Collection (Arctos)
+1 records from DMNS Mammal Collection (Arctos)
+1 records from CM Vertebrate Paleontology Collection
+1 records from University of Michigan Museum of Zoology, Division of Mammals
+1 records from SBMNH Vertebrate Zoology
+1 records from Ohio State University Tetrapod Division - Mammal Collection (OSUM)
+1 records from Naturhistorisches Museum Mainz, Zoological Collection
+2 records from LSUMZ Mammals Collection
+2 records from CNMA/Colección Nacional de mamíferos
+2 records from USGS Patuxent Wildlife Research Center Seabirds Compendium
+2 records from Biodiversity Research and Teaching Collections - TCWC Vertebrates
+2 records from Canadian Museum of Nature Mammal Collection
+2 records from MVZ Mammal Collection (Arctos)
+2 records from Angelo State Natural History Collections (ASNHC) Mammal specimens (Arctos)
+2 records from UAM Mammal Collection (Arctos)
+2 records from HSU Vertebrate Museum Mammals Collection
+2 records from Natural History Museum (London) Collection Specimens
+3 records from Vertebrate Zoology Division - Mammalogy, Yale Peabody Museum
+3 records from KUBI Mammalogy Collection
+4 records from Paleobiology Database
+6 records from Palaeobiology - Vertebrate Comparative Osteology Collection - Royal Ontario Museum
+6 records from Field Museum of Natural History (Zoology) Mammal Collection
+8 records from Diveboard - Scuba diving citizen science observations
+8 records from Macaulay Library Audio and Video Collection
+15 records from naturgucker
+19 records from AMNH Mammal Collections
+20 records from Mammals Specimens
+20 records from MSB Mammal Collection (Arctos)
+22 records from UWBM Mammalogy Collection (Arctos)
+25 records from Mammalogy Collection - Royal Ontario Museum
+30 records from Museum of Comparative Zoology, Harvard University
+31 records from CAS Mammalogy (MAM)
+46 records from LACM Vertebrate Collection
+47 records from NCSM Mammals Collection
+69 records from Palaeobiology - Vertebrate Fossils Collection - Mammalia - Royal Ontario Museum
+145 records from NatureServe Network Species Occurrence Data
+148 records from NMNH Extant Specimen Records
+481 records from University of Florida Vertebrate Paleontology
+994 records from iNaturalist Research-grade Observations
+</para>
+    </abstract>
+      <contact>
+    <individualName>
+          <surName>GBIF Download Service</surName>
+    </individualName>
+<electronicMailAddress>support@gbif.org</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:55Z</dateStamp>
+      <citation identifier="10.15468/dl.s35fqk">GBIF Occurrence Download 10.15468/dl.s35fqk</citation>
+              <physical>
+                  <objectName>Darwin Core Archive</objectName>
+                  <characterEncoding>UTF-8</characterEncoding>
+                  <dataFormat>
+                      <externallyDefinedFormat>
+                          <formatName>Darwin Core Archive</formatName>
+                      </externallyDefinedFormat>
+                  </dataFormat>
+                  <distribution>
+                      <online>
+                          <url function="download">http://api.gbif.org/v1/occurrence/download/request/0026763-200613084148143.zip</url>
+                      </online>
+                  </distribution>
+              </physical>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

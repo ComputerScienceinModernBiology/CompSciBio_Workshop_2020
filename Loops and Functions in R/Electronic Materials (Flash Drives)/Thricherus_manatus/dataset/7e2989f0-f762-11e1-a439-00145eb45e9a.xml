@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="7e2989f0-f762-11e1-a439-00145eb45e9a"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/aaknqu</alternateIdentifier>
+        <alternateIdentifier>12678</alternateIdentifier>
+    <title>Naturhistorisches Museum Mainz, Zoological Collection</title>
+    <associatedParty>
+    <individualName>
+          <surName>Jörg Holetschek</surName>
+    </individualName>
+    <address>
+<deliveryPoint>BGBM, Königin-Luise-Str. 6-8, 14195 Berlin, Germany</deliveryPoint>    </address>
+<electronicMailAddress>biodiversitydata@bgbm.org</electronicMailAddress>    <role>TECHNICAL_POINT_OF_CONTACT</role>
+    </associatedParty>
+    <language>en</language>
+    <abstract>
+        <para>The zoological collection of the Mainz Natural History Museum / State Collection of Natural History of Rhineland-Palatinate is the largest in Rhineland-Palatinate and holds approx. 750.000 preserved specimens. The most comprehensive inventory exists for the insects (entomological collections) including the butterflies (Lepidoptera) with the collections of Erich Bettag, Heinz Falkner, August Jung, Jürgen Lay, Otfried Legler, Helga Luckenbach, Manfred Persohn, Klaus Rose as well as Dieter and Paul Schulz. The true bugs (Heteroptera) are represented by the collections of Hannes Günther and Viktor Zebe. The beetles (Coleoptera) were collected by Erich Bettag, Frank Köhler and Viktor Zebe (in this case exclusively weevils). Concerning flies (Diptera) the museum has the largest individual collection based on the hoverflies (Syrphidae) of Franz Malec. The Hymenoptera are documented based on collections of Klaus Cölln, Andrea Jakubzik and Franz Malec (Vespidae). Vertebrates - mainly mammals and birds - are represented by 10.000 preserved specimens. The collection includes mounted specimens, specimens skins, bones, eggs, and bird nests. The most relevant collection is the one of Carlo Freiherr von Erlanger which is conserved on behalf of the Ingelheimer Museum bei der Kaiserpfalz. The Invertebrate collection contains 40.000 specimens including collections in the frame of the regular survey of the river Rhine, the mollusc collection (material from Rhineland-Palatinate collected Peter Subai as well as Birgit, Waltrauf &amp;amp; Paul Schnell, freshwater mussels collected by Jürgen H. Jungbluth). Some marine molluscs were provided by Ragnar Kinzelbach, who also deposited his collection of scorpiones at the museum.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+    <individualName>
+          <surName>Dr. Carsten Renker</surName>
+    </individualName>
+    <address>
+<deliveryPoint>Naturhistorisches Museum Mainz, Reichklarastr. 10; 5116 Mainz, Germany</deliveryPoint>    </address>
+<electronicMailAddress>carsten.renker@stadt.mainz.de</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:52Z</dateStamp>
+      <citation>Naturhistorisches Museum Mainz. Naturhistorisches Museum Mainz, Zoological Collection. Occurrence dataset https://doi.org/10.15468/aaknqu accessed via GBIF.org on 2020-07-22.</citation>
+              <resourceLogoUrl>http://ww3.bgbm.org/providerResources/Logo-nhm-2010.png</resourceLogoUrl>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

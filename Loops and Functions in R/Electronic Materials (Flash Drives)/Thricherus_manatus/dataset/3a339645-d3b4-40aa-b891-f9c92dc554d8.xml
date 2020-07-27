@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="3a339645-d3b4-40aa-b891-f9c92dc554d8"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/ybd4r1</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource?r=crcm_verts</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource.do?r=crcm_verts</alternateIdentifier>
+        <alternateIdentifier>3a339645-d3b4-40aa-b891-f9c92dc554d8</alternateIdentifier>
+        <alternateIdentifier>14363</alternateIdentifier>
+    <title>CRCM Vertebrate Collection</title>
+    <creator>
+    <individualName>
+<givenName>Kelly</givenName>          <surName>Cassidy</surName>
+    </individualName>
+<organizationName>Charles R. Conner Museum</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>School of Biological Sciences, Washington State University, PO Box 644236</deliveryPoint><city>Pullman</city><administrativeArea>WA</administrativeArea><postalCode>99164-4236</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 509-335-3515</phone><electronicMailAddress>connermuseum@wsu.edu</electronicMailAddress><onlineUrl>http://sbs.wsu.edu/connermuseum</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Kelly</givenName>          <surName>Cassidy</surName>
+    </individualName>
+<organizationName>Charles R. Conner Museum</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>School of Biological Sciences, Washington State University, PO Box 644236</deliveryPoint><city>Pullman</city><administrativeArea>WA</administrativeArea><postalCode>99164-4236</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 509-335-3515</phone><electronicMailAddress>connermuseum@wsu.edu</electronicMailAddress><onlineUrl>http://sbs.wsu.edu/connermuseum</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Laura</givenName>          <surName>Russell</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Programmer</positionName><electronicMailAddress>larussell@vertnet.org</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Coordinator</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>John</givenName>          <surName>Wieczorek</surName>
+    </individualName>
+<organizationName>Museum of Vertebrate Zoology at Berkeley</organizationName><positionName>Information Architect</positionName><electronicMailAddress>tuco@berkeley.edu</electronicMailAddress>    <role>PROGRAMMER</role>
+    </associatedParty>
+      <pubDate>
+      2017-11-02
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Charles R. Conner Museum (CRCM) houses a vertebrate research collection. The collection includes specimens from around the world, but the geographic emphasis is on the Inland Northwest of the US.  The vast majority of the specimens are from Washington, Idaho, and adjacent states.  As of 2012, most of the (non-pickled) bird and mammal records had been entered into the computer database and are available online. Records for the pickled specimens (fish, amphibians, reptiles, and birds) will probably not be available online until 2014.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>http://vertnet.org/resources/norms.html</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Includes specimens from around the world, with the majority from Washington State and Idaho.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Kelly</givenName>          <surName>Cassidy</surName>
+    </individualName>
+<organizationName>Charles R. Conner Museum</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>School of Biological Sciences, Washington State University, PO Box 644236</deliveryPoint><city>Pullman</city><administrativeArea>WA</administrativeArea><postalCode>99164-4236</postalCode><country>UNITED_STATES</country>    </address>
+<phone>+01 509-335-3515</phone><electronicMailAddress>connermuseum@wsu.edu</electronicMailAddress><onlineUrl>http://sbs.wsu.edu/connermuseum</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:51Z</dateStamp>
+      <citation>Cassidy K (2017). CRCM Vertebrate Collection. Version 7.2. Charles R. Conner Museum. Occurrence dataset https://doi.org/10.15468/ybd4r1 accessed via GBIF.org on 2020-07-22.</citation>
+              <livingTimePeriod>From the 1890s to the present</livingTimePeriod>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

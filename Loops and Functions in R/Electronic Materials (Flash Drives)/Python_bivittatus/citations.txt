@@ -1,0 +1,4 @@
+When using this dataset please use the following citation and pay attention to the rights documented in rights.txt:
+The International Barcode of Life Consortium (2016). International Barcode of Life project (iBOL). Occurrence dataset https://doi.org/10.15468/inygc6 accessed via GBIF.org on 2020-07-22.
+Ueda K (2020). iNaturalist Research-grade Observations. iNaturalist.org. Occurrence dataset https://doi.org/10.15468/ab3s5x accessed via GBIF.org on 2020-07-22.
+Blackburn D, Brown W (2020). University of Florida Herpetology. Florida Museum of Natural History. Occurrence dataset https://doi.org/10.15468/vw3dvj accessed via GBIF.org on 2020-07-22.

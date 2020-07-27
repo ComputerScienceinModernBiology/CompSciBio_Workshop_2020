@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="2aa02cf8-c402-412c-9ad1-585e1e185bef"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/vbfxbd</alternateIdentifier>
+        <alternateIdentifier>2aa02cf8-c402-412c-9ad1-585e1e185bef</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource?r=asnhc_mamm</alternateIdentifier>
+    <title>Angelo State Natural History Collections (ASNHC) Mammal specimens (Arctos)</title>
+    <creator>
+    <individualName>
+<givenName>Dianna</givenName>          <surName>Krejsa</surName>
+    </individualName>
+<organizationName>Angelo State University</organizationName><positionName>Collections Manager</positionName>    <address>
+<deliveryPoint>Department of Biology 2601 W. Ave. N</deliveryPoint><city>San Angelo</city><administrativeArea>TX</administrativeArea><postalCode>76909</postalCode><country>UNITED_STATES</country>    </address>
+<phone>3254866639</phone><electronicMailAddress>dkrejsa@angelo.edu</electronicMailAddress>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Dianna</givenName>          <surName>Krejsa</surName>
+    </individualName>
+<organizationName>Angelo State University</organizationName><positionName>Collections Manager</positionName>    <address>
+<deliveryPoint>Department of Biology, 2601 W AVENUE N</deliveryPoint><city>SAN ANGELO</city><administrativeArea>TX</administrativeArea><postalCode>769095099</postalCode><country>UNITED_STATES</country>    </address>
+<phone>3259422012</phone><electronicMailAddress>dkrejsa@angelo.edu</electronicMailAddress>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Coordinator</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress><onlineUrl>http://www.vertnet.org</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>John</givenName>          <surName>Wieczorek</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>Information Architect</positionName><electronicMailAddress>tuco@berkeley.edu</electronicMailAddress><onlineUrl>http://www.vertnet.org</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+      <pubDate>
+      2020-07-03
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The ASNHC Mammal collection comprises more than 20,000 records. It is the fourth largest mammal collection in Texas. Almost half of the collection is of species from Texas. Significant holdings are also represented from Mexico (3,600 specimens), Guyana (200), and the Galapagos Islands, seaward of Ecuador (300). Recent field studies in Sulawesi, Indonesia and several U.S. states have added specimens to the collection.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>http://vertnet.org/resources/norms.html</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">https://www.angelo.edu/content/profiles/5153-mammalogy/Templates/profiles-asnhc.php</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Primarily Texas and the Southwestern United States, but includes important specimens from Mexico, Guyana, Ecuador, Kenya, South Africa, Sulawesi, Indonesia, China, and many U.S. states.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <generalTaxonomicCoverage>Mammals of Texas, the Southwestern United States and Northern Mexico</generalTaxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Mammalia</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <purpose>
+          <para>The Collection of Mammals is held for research, outreach, and university-level specimen-based education.</para>
+      </purpose>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>monthly</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Dusty</givenName>          <surName>McDonald</surName>
+    </individualName>
+<organizationName>Arctos</organizationName><positionName>Programmer</positionName><electronicMailAddress>dustymc@gmail.com</electronicMailAddress>      </contact>
+      <contact>
+    <individualName>
+<givenName>Dianna</givenName>          <surName>Krejsa</surName>
+    </individualName>
+<organizationName>Angelo State University</organizationName><positionName>Collections Manager</positionName>    <address>
+<deliveryPoint>Department of Biology, 2601 W AVENUE N</deliveryPoint><city>SAN ANGELO</city><administrativeArea>TX</administrativeArea><postalCode>769095099</postalCode><country>UNITED_STATES</country>    </address>
+<phone>3259422012</phone><electronicMailAddress>dkrejsa@angelo.edu</electronicMailAddress>      </contact>
+      <contact>
+    <individualName>
+<givenName>Robert</givenName>          <surName>Dowler</surName>
+    </individualName>
+<organizationName>ANGELO STATE UNIV</organizationName><positionName>Curator of Mammalso</positionName>    <address>
+<deliveryPoint>2601 W AVENUE N</deliveryPoint><city>SAN ANGELO</city><administrativeArea>TX</administrativeArea><postalCode>769095099</postalCode>    </address>
+<phone>3254866639</phone><electronicMailAddress>robert.dowler@angelo.edu</electronicMailAddress>      </contact>
+      <contact>
+    <individualName>
+<givenName>Robert</givenName>          <surName>Dowler</surName>
+    </individualName>
+<organizationName>Angelo State University</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>Department of Biology, 2601 W AVENUE N</deliveryPoint><city>SAN ANGELO</city><administrativeArea>TX</administrativeArea><postalCode>769095099</postalCode><country>UNITED_STATES</country>    </address>
+<phone>325-942-2189</phone><electronicMailAddress>Robert.Dowler@angelo.edu</electronicMailAddress>      </contact>
+      <contact>
+    <individualName>
+<givenName>Dianna</givenName>          <surName>Krejsa</surName>
+    </individualName>
+<organizationName>Angelo State University</organizationName><positionName>Collections Manager</positionName>    <address>
+<deliveryPoint>Department of Biology 2601 W. Ave. N</deliveryPoint><city>San Angelo</city><administrativeArea>TX</administrativeArea><postalCode>76909</postalCode><country>UNITED_STATES</country>    </address>
+<phone>3254866639</phone><electronicMailAddress>dkrejsa@angelo.edu</electronicMailAddress>      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para></para>
+                </description>
+            </methodStep>
+      </methods>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:52Z</dateStamp>
+      <citation>Krejsa D (2020). Angelo State Natural History Collections (ASNHC) Mammal specimens (Arctos). Version 1.5. Angelo State Natural History Collections (ASNHC). Occurrence dataset https://doi.org/10.15468/vbfxbd accessed via GBIF.org on 2020-07-22.</citation>
+              <collection>
+                <parentCollectionIdentifier>ASNHC</parentCollectionIdentifier>
+                <collectionIdentifier>ASNHC:Mamm</collectionIdentifier>
+                <collectionName>Angelo State Natural History Collections (ASNHC) Mammal specimens</collectionName>
+              </collection>
+                <specimenPreservationMethod>DEEP_FROZEN</specimenPreservationMethod>
+              <livingTimePeriod>1965-present with a few older specimens</livingTimePeriod>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

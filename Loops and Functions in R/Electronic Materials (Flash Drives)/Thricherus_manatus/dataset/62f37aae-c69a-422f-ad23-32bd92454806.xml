@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="62f37aae-c69a-422f-ad23-32bd92454806"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/p7bz9e</alternateIdentifier>
+        <alternateIdentifier>62f37aae-c69a-422f-ad23-32bd92454806</alternateIdentifier>
+        <alternateIdentifier>http://ipt.vertnet.org:8080/ipt/resource?r=hsu_vertebrate_mammals</alternateIdentifier>
+    <title>HSU Vertebrate Museum Mammals Collection</title>
+    <creator>
+    <individualName>
+<givenName>John</givenName>          <surName>Reiss</surName>
+    </individualName>
+<organizationName>Humboldt State University, Department of Biological Sciences, Vertebrate Museum</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>1 Harpst Street</deliveryPoint><city>Arcata</city><administrativeArea>CA</administrativeArea><postalCode>95521</postalCode><country>UNITED_STATES</country>    </address>
+<phone>707-826-4156</phone><electronicMailAddress>john.reiss@humboldt.edu</electronicMailAddress><onlineUrl>http://www.humboldt.edu/vmuseum</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>John</givenName>          <surName>Reiss</surName>
+    </individualName>
+<organizationName>Humboldt State University, Department of Biological Sciences, Vertebrate Museum</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>1 Harpst Street</deliveryPoint><city>Arcata</city><administrativeArea>CA</administrativeArea><postalCode>95521</postalCode><country>UNITED_STATES</country>    </address>
+<phone>707-826-4156</phone><electronicMailAddress>john.reiss@humboldt.edu</electronicMailAddress><onlineUrl>http://www.humboldt.edu/vmuseum</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Programmer</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress><onlineUrl>http://vertnet.org/</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>David</givenName>          <surName>Bloom</surName>
+    </individualName>
+<organizationName>VertNet</organizationName><positionName>VertNet Coordinator</positionName><electronicMailAddress>dbloom@vertnet.org</electronicMailAddress><onlineUrl>http://vertnet.org/</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>John</givenName>          <surName>Wieczorek</surName>
+    </individualName>
+<organizationName>Museum of Vertebrate Zoology at Berkeley</organizationName><positionName>Information Architect</positionName><electronicMailAddress>tuco@berkeley.edu</electronicMailAddress><onlineUrl>http://vertnet.org/</onlineUrl>    <role>PROGRAMMER</role>
+    </associatedParty>
+      <pubDate>
+      2017-06-13
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Vertebrate Museum’s mammal collection contains approximately 8,750 specimens, including skins and skeletal material from a variety of terrestrial, aquatic, marine and volant mammals. The research collection is currently the second largest of its kind in the California State University System at over 8,000 specimens. The collection dates back to 1923 and is particularly strong in marine mammals of the Pacific Ocean and terrestrial mammals from northern California and the Great Basin. It is fully accredited by the American Society of Mammalogists. We also have an outstanding teaching collection of over 800 specimens, with exceptional coverage of the Orders and Families of living mammals.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>http://vertnet.org/resources/norms.html</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://www2.humboldt.edu/vmuseum/collections.html</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>The collection is particularly strong in marine mammals of the Pacific Ocean and terrestrial mammals from northern California and the Great Basin.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Mammalia</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Thor</givenName>          <surName>Holmes</surName>
+    </individualName>
+<organizationName>Humboldt State University, Department of Biological Sciences, Vertebrate Museum</organizationName><positionName>Collections Manager</positionName>    <address>
+<deliveryPoint>1 Harpst Street</deliveryPoint><city>Arcata</city><administrativeArea>CA</administrativeArea><postalCode>95521</postalCode><country>UNITED_STATES</country>    </address>
+<phone>707-826-4872</phone><electronicMailAddress>thorvald.holmes@humboldt.edu</electronicMailAddress><onlineUrl>http://www.humboldt.edu/vmuseum</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:52Z</dateStamp>
+      <citation>Reiss J (2017). HSU Vertebrate Museum Mammals Collection. Version 2.3. Humboldt State University. Occurrence dataset https://doi.org/10.15468/p7bz9e accessed via GBIF.org on 2020-07-22.</citation>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

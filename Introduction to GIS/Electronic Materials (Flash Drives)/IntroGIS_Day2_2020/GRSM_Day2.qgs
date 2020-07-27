@@ -1,0 +1,1494 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.12.3-București" saveUserFull="Gwendolyn" projectname="" saveUser="Gwendolyn">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>PROJCRS["NAD83 / UTM zone 17N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 17N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-81,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["North America - 84°W to 78°W and NAD83 by country"],BBOX[23.81,-84,84,-78]],ID["EPSG",26917]]</wkt>
+      <proj4>+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2294</srsid>
+      <srid>26917</srid>
+      <authid>EPSG:26917</authid>
+      <description>NAD83 / UTM zone 17N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer source="./Data/GRSM_Vegetation.shp" checked="Qt::Checked" legend_exp="" expanded="1" providerKey="ogr" id="GRSM_Vegetation_5c5ef413_2e3d_4c86_b06d_78d939a021a5" name="GRSM_Vegetation">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./Data/GRSM_Roads.shp" checked="Qt::Checked" legend_exp="" expanded="1" providerKey="ogr" id="GRSM_Roads_1d42331f_7fc0_4304_affe_80a0c923a8ce" name="GRSM_Roads">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>GRSM_Roads_1d42331f_7fc0_4304_affe_80a0c923a8ce</item>
+      <item>GRSM_Vegetation_5c5ef413_2e3d_4c86_b06d_78d939a021a5</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" unit="1" enabled="0" intersection-snapping="0" type="1" tolerance="12">
+    <individual-layer-settings>
+      <layer-setting enabled="0" type="1" id="GRSM_Roads_1d42331f_7fc0_4304_affe_80a0c923a8ce" tolerance="12" units="1"/>
+      <layer-setting enabled="0" type="1" id="GRSM_Vegetation_5c5ef413_2e3d_4c86_b06d_78d939a021a5" tolerance="12" units="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>224054.39413971340400167</xmin>
+      <ymin>3904349.94906487781554461</ymin>
+      <xmax>318934.06009560893289745</xmax>
+      <ymax>3981861.80478506069630384</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["NAD83 / UTM zone 17N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 17N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-81,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["North America - 84°W to 78°W and NAD83 by country"],BBOX[23.81,-84,84,-78]],ID["EPSG",26917]]</wkt>
+        <proj4>+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2294</srsid>
+        <srid>26917</srid>
+        <authid>EPSG:26917</authid>
+        <description>NAD83 / UTM zone 17N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" open="true" name="GRSM_Vegetation">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="GRSM_Vegetation_5c5ef413_2e3d_4c86_b06d_78d939a021a5"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked" open="true" name="GRSM_Roads">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="GRSM_Roads_1d42331f_7fc0_4304_affe_80a0c923a8ce"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1" readOnly="0" refreshOnNotifyMessage="" autoRefreshTime="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyLocal="1" autoRefreshEnabled="0" minScale="100000000" simplifyDrawingTol="1" labelsEnabled="0" geometry="Line" simplifyAlgorithm="0" type="vector" wkbType="MultiLineStringZ">
+      <extent>
+        <xmin>227166.12999999988824129</xmin>
+        <ymin>3925740.74000000022351742</ymin>
+        <xmax>314851.69149999972432852</xmax>
+        <ymax>3968047.64000000059604645</ymax>
+      </extent>
+      <id>GRSM_Roads_1d42331f_7fc0_4304_affe_80a0c923a8ce</id>
+      <datasource>./Data/GRSM_Roads.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>GRSM_Roads</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / UTM zone 17N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 17N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-81,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["North America - 84°W to 78°W and NAD83 by country"],BBOX[23.81,-84,84,-78]],ID["EPSG",26917]]</wkt>
+          <proj4>+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2294</srsid>
+          <srid>26917</srid>
+          <authid>EPSG:26917</authid>
+          <description>NAD83 / UTM zone 17N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" force_rhr="0" clip_to_extent="1" type="line" name="0">
+            <layer enabled="1" class="SimpleLine" locked="0" pass="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="164,113,88,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ASSETID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CREATEDATE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DISTRIBUTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EDITDATE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FEATUREID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GlobalID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOCATIONID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAINTAINER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAPMETHOD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAPSOURCE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOTES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PLACESID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RDALTNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RDCLASS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RDLABEL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RDLANES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RDNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RDONEWAY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RDSTATUS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RDSURFACE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REGIONCODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RESTRICTIO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUTEID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RTENUMBER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SOURCEDATE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SRCESCALE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UNITCODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UNITNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FACILITYTY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ASSETCODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARKDISTRI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARK_FUNCT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MTFCC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROADLEVEL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUBRESTRIC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FEDROUTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AFEDRTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STROUTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ASTRTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CTYROUTE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RuleID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PUBLICDISP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DATAACCESS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="XYACCURACY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MANAGEMENT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="QUADNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VALID_RESU">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IMARS_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IMARS_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RVP_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_Leng">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="ASSETID" index="1" name=""/>
+        <alias field="CREATEDATE" index="2" name=""/>
+        <alias field="DISTRIBUTE" index="3" name=""/>
+        <alias field="EDITDATE" index="4" name=""/>
+        <alias field="FEATUREID" index="5" name=""/>
+        <alias field="GlobalID" index="6" name=""/>
+        <alias field="LOCATIONID" index="7" name=""/>
+        <alias field="MAINTAINER" index="8" name=""/>
+        <alias field="MAPMETHOD" index="9" name=""/>
+        <alias field="MAPSOURCE" index="10" name=""/>
+        <alias field="NOTES" index="11" name=""/>
+        <alias field="PLACESID" index="12" name=""/>
+        <alias field="RDALTNAME" index="13" name=""/>
+        <alias field="RDCLASS" index="14" name=""/>
+        <alias field="RDLABEL" index="15" name=""/>
+        <alias field="RDLANES" index="16" name=""/>
+        <alias field="RDNAME" index="17" name=""/>
+        <alias field="RDONEWAY" index="18" name=""/>
+        <alias field="RDSTATUS" index="19" name=""/>
+        <alias field="RDSURFACE" index="20" name=""/>
+        <alias field="REGIONCODE" index="21" name=""/>
+        <alias field="RESTRICTIO" index="22" name=""/>
+        <alias field="ROUTEID" index="23" name=""/>
+        <alias field="RTENUMBER" index="24" name=""/>
+        <alias field="SOURCEDATE" index="25" name=""/>
+        <alias field="SRCESCALE" index="26" name=""/>
+        <alias field="UNITCODE" index="27" name=""/>
+        <alias field="UNITNAME" index="28" name=""/>
+        <alias field="FACILITYTY" index="29" name=""/>
+        <alias field="ASSETCODE" index="30" name=""/>
+        <alias field="COUNTY" index="31" name=""/>
+        <alias field="STATE" index="32" name=""/>
+        <alias field="PARKDISTRI" index="33" name=""/>
+        <alias field="PARK_FUNCT" index="34" name=""/>
+        <alias field="MTFCC" index="35" name=""/>
+        <alias field="ROADLEVEL" index="36" name=""/>
+        <alias field="PUBRESTRIC" index="37" name=""/>
+        <alias field="FEDROUTE" index="38" name=""/>
+        <alias field="AFEDRTE" index="39" name=""/>
+        <alias field="STROUTE" index="40" name=""/>
+        <alias field="ASTRTE" index="41" name=""/>
+        <alias field="CTYROUTE" index="42" name=""/>
+        <alias field="RuleID" index="43" name=""/>
+        <alias field="PUBLICDISP" index="44" name=""/>
+        <alias field="DATAACCESS" index="45" name=""/>
+        <alias field="XYACCURACY" index="46" name=""/>
+        <alias field="MANAGEMENT" index="47" name=""/>
+        <alias field="QUADNAME" index="48" name=""/>
+        <alias field="VALID_RESU" index="49" name=""/>
+        <alias field="IMARS_NAME" index="50" name=""/>
+        <alias field="IMARS_ID" index="51" name=""/>
+        <alias field="RVP_NAME" index="52" name=""/>
+        <alias field="SHAPE_Leng" index="53" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="OBJECTID" applyOnUpdate="0"/>
+        <default expression="" field="ASSETID" applyOnUpdate="0"/>
+        <default expression="" field="CREATEDATE" applyOnUpdate="0"/>
+        <default expression="" field="DISTRIBUTE" applyOnUpdate="0"/>
+        <default expression="" field="EDITDATE" applyOnUpdate="0"/>
+        <default expression="" field="FEATUREID" applyOnUpdate="0"/>
+        <default expression="" field="GlobalID" applyOnUpdate="0"/>
+        <default expression="" field="LOCATIONID" applyOnUpdate="0"/>
+        <default expression="" field="MAINTAINER" applyOnUpdate="0"/>
+        <default expression="" field="MAPMETHOD" applyOnUpdate="0"/>
+        <default expression="" field="MAPSOURCE" applyOnUpdate="0"/>
+        <default expression="" field="NOTES" applyOnUpdate="0"/>
+        <default expression="" field="PLACESID" applyOnUpdate="0"/>
+        <default expression="" field="RDALTNAME" applyOnUpdate="0"/>
+        <default expression="" field="RDCLASS" applyOnUpdate="0"/>
+        <default expression="" field="RDLABEL" applyOnUpdate="0"/>
+        <default expression="" field="RDLANES" applyOnUpdate="0"/>
+        <default expression="" field="RDNAME" applyOnUpdate="0"/>
+        <default expression="" field="RDONEWAY" applyOnUpdate="0"/>
+        <default expression="" field="RDSTATUS" applyOnUpdate="0"/>
+        <default expression="" field="RDSURFACE" applyOnUpdate="0"/>
+        <default expression="" field="REGIONCODE" applyOnUpdate="0"/>
+        <default expression="" field="RESTRICTIO" applyOnUpdate="0"/>
+        <default expression="" field="ROUTEID" applyOnUpdate="0"/>
+        <default expression="" field="RTENUMBER" applyOnUpdate="0"/>
+        <default expression="" field="SOURCEDATE" applyOnUpdate="0"/>
+        <default expression="" field="SRCESCALE" applyOnUpdate="0"/>
+        <default expression="" field="UNITCODE" applyOnUpdate="0"/>
+        <default expression="" field="UNITNAME" applyOnUpdate="0"/>
+        <default expression="" field="FACILITYTY" applyOnUpdate="0"/>
+        <default expression="" field="ASSETCODE" applyOnUpdate="0"/>
+        <default expression="" field="COUNTY" applyOnUpdate="0"/>
+        <default expression="" field="STATE" applyOnUpdate="0"/>
+        <default expression="" field="PARKDISTRI" applyOnUpdate="0"/>
+        <default expression="" field="PARK_FUNCT" applyOnUpdate="0"/>
+        <default expression="" field="MTFCC" applyOnUpdate="0"/>
+        <default expression="" field="ROADLEVEL" applyOnUpdate="0"/>
+        <default expression="" field="PUBRESTRIC" applyOnUpdate="0"/>
+        <default expression="" field="FEDROUTE" applyOnUpdate="0"/>
+        <default expression="" field="AFEDRTE" applyOnUpdate="0"/>
+        <default expression="" field="STROUTE" applyOnUpdate="0"/>
+        <default expression="" field="ASTRTE" applyOnUpdate="0"/>
+        <default expression="" field="CTYROUTE" applyOnUpdate="0"/>
+        <default expression="" field="RuleID" applyOnUpdate="0"/>
+        <default expression="" field="PUBLICDISP" applyOnUpdate="0"/>
+        <default expression="" field="DATAACCESS" applyOnUpdate="0"/>
+        <default expression="" field="XYACCURACY" applyOnUpdate="0"/>
+        <default expression="" field="MANAGEMENT" applyOnUpdate="0"/>
+        <default expression="" field="QUADNAME" applyOnUpdate="0"/>
+        <default expression="" field="VALID_RESU" applyOnUpdate="0"/>
+        <default expression="" field="IMARS_NAME" applyOnUpdate="0"/>
+        <default expression="" field="IMARS_ID" applyOnUpdate="0"/>
+        <default expression="" field="RVP_NAME" applyOnUpdate="0"/>
+        <default expression="" field="SHAPE_Leng" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="OBJECTID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ASSETID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CREATEDATE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="DISTRIBUTE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="EDITDATE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="FEATUREID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="GlobalID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="LOCATIONID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MAINTAINER" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MAPMETHOD" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MAPSOURCE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="NOTES" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PLACESID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RDALTNAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RDCLASS" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RDLABEL" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RDLANES" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RDNAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RDONEWAY" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RDSTATUS" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RDSURFACE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="REGIONCODE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RESTRICTIO" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ROUTEID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RTENUMBER" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SOURCEDATE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SRCESCALE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UNITCODE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UNITNAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="FACILITYTY" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ASSETCODE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="COUNTY" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="STATE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PARKDISTRI" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PARK_FUNCT" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MTFCC" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ROADLEVEL" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PUBRESTRIC" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="FEDROUTE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="AFEDRTE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="STROUTE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="ASTRTE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="CTYROUTE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RuleID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="PUBLICDISP" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="DATAACCESS" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="XYACCURACY" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MANAGEMENT" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="QUADNAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="VALID_RESU" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="IMARS_NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="IMARS_ID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="RVP_NAME" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SHAPE_Leng" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="OBJECTID" desc="" exp=""/>
+        <constraint field="ASSETID" desc="" exp=""/>
+        <constraint field="CREATEDATE" desc="" exp=""/>
+        <constraint field="DISTRIBUTE" desc="" exp=""/>
+        <constraint field="EDITDATE" desc="" exp=""/>
+        <constraint field="FEATUREID" desc="" exp=""/>
+        <constraint field="GlobalID" desc="" exp=""/>
+        <constraint field="LOCATIONID" desc="" exp=""/>
+        <constraint field="MAINTAINER" desc="" exp=""/>
+        <constraint field="MAPMETHOD" desc="" exp=""/>
+        <constraint field="MAPSOURCE" desc="" exp=""/>
+        <constraint field="NOTES" desc="" exp=""/>
+        <constraint field="PLACESID" desc="" exp=""/>
+        <constraint field="RDALTNAME" desc="" exp=""/>
+        <constraint field="RDCLASS" desc="" exp=""/>
+        <constraint field="RDLABEL" desc="" exp=""/>
+        <constraint field="RDLANES" desc="" exp=""/>
+        <constraint field="RDNAME" desc="" exp=""/>
+        <constraint field="RDONEWAY" desc="" exp=""/>
+        <constraint field="RDSTATUS" desc="" exp=""/>
+        <constraint field="RDSURFACE" desc="" exp=""/>
+        <constraint field="REGIONCODE" desc="" exp=""/>
+        <constraint field="RESTRICTIO" desc="" exp=""/>
+        <constraint field="ROUTEID" desc="" exp=""/>
+        <constraint field="RTENUMBER" desc="" exp=""/>
+        <constraint field="SOURCEDATE" desc="" exp=""/>
+        <constraint field="SRCESCALE" desc="" exp=""/>
+        <constraint field="UNITCODE" desc="" exp=""/>
+        <constraint field="UNITNAME" desc="" exp=""/>
+        <constraint field="FACILITYTY" desc="" exp=""/>
+        <constraint field="ASSETCODE" desc="" exp=""/>
+        <constraint field="COUNTY" desc="" exp=""/>
+        <constraint field="STATE" desc="" exp=""/>
+        <constraint field="PARKDISTRI" desc="" exp=""/>
+        <constraint field="PARK_FUNCT" desc="" exp=""/>
+        <constraint field="MTFCC" desc="" exp=""/>
+        <constraint field="ROADLEVEL" desc="" exp=""/>
+        <constraint field="PUBRESTRIC" desc="" exp=""/>
+        <constraint field="FEDROUTE" desc="" exp=""/>
+        <constraint field="AFEDRTE" desc="" exp=""/>
+        <constraint field="STROUTE" desc="" exp=""/>
+        <constraint field="ASTRTE" desc="" exp=""/>
+        <constraint field="CTYROUTE" desc="" exp=""/>
+        <constraint field="RuleID" desc="" exp=""/>
+        <constraint field="PUBLICDISP" desc="" exp=""/>
+        <constraint field="DATAACCESS" desc="" exp=""/>
+        <constraint field="XYACCURACY" desc="" exp=""/>
+        <constraint field="MANAGEMENT" desc="" exp=""/>
+        <constraint field="QUADNAME" desc="" exp=""/>
+        <constraint field="VALID_RESU" desc="" exp=""/>
+        <constraint field="IMARS_NAME" desc="" exp=""/>
+        <constraint field="IMARS_ID" desc="" exp=""/>
+        <constraint field="RVP_NAME" desc="" exp=""/>
+        <constraint field="SHAPE_Leng" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1" readOnly="0" refreshOnNotifyMessage="" autoRefreshTime="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyLocal="1" autoRefreshEnabled="0" minScale="100000000" simplifyDrawingTol="1" labelsEnabled="0" geometry="Polygon" simplifyAlgorithm="0" type="vector" wkbType="MultiPolygon">
+      <extent>
+        <xmin>228003.76150000002235174</xmin>
+        <ymin>3922964.71829999983310699</ymin>
+        <xmax>315560.05910000018775463</xmax>
+        <ymax>3963188.45309999957680702</ymax>
+      </extent>
+      <id>GRSM_Vegetation_5c5ef413_2e3d_4c86_b06d_78d939a021a5</id>
+      <datasource>./Data/GRSM_Vegetation.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>GRSM_Vegetation</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / UTM zone 17N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 17N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-81,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["North America - 84°W to 78°W and NAD83 by country"],BBOX[23.81,-84,84,-78]],ID["EPSG",26917]]</wkt>
+          <proj4>+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2294</srsid>
+          <srid>26917</srid>
+          <authid>EPSG:26917</authid>
+          <description>NAD83 / UTM zone 17N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol alpha="1" force_rhr="0" clip_to_extent="1" type="fill" name="0">
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="133,182,111,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="FID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UNDERSTORY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UNDERSTO_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DOMINANTVE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="density">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="density_">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Dens_Class">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Descriptio">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Class">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Notes">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VError">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MapSource">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SourceDate">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Location_I">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MapMethod">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="QuadName">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UnitCode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EditDate">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IsSensitiv">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UnitName">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IsExtant">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HError">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="County">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="State">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="X_Coord">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Y_Coord">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LAT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LON">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Watershed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_Leng">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_Area">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="FID" index="0" name=""/>
+        <alias field="UNDERSTORY" index="1" name=""/>
+        <alias field="UNDERSTO_1" index="2" name=""/>
+        <alias field="DOMINANTVE" index="3" name=""/>
+        <alias field="density" index="4" name=""/>
+        <alias field="density_" index="5" name=""/>
+        <alias field="Dens_Class" index="6" name=""/>
+        <alias field="Descriptio" index="7" name=""/>
+        <alias field="Class" index="8" name=""/>
+        <alias field="Notes" index="9" name=""/>
+        <alias field="VError" index="10" name=""/>
+        <alias field="MapSource" index="11" name=""/>
+        <alias field="SourceDate" index="12" name=""/>
+        <alias field="Location_I" index="13" name=""/>
+        <alias field="MapMethod" index="14" name=""/>
+        <alias field="QuadName" index="15" name=""/>
+        <alias field="UnitCode" index="16" name=""/>
+        <alias field="EditDate" index="17" name=""/>
+        <alias field="IsSensitiv" index="18" name=""/>
+        <alias field="UnitName" index="19" name=""/>
+        <alias field="IsExtant" index="20" name=""/>
+        <alias field="HError" index="21" name=""/>
+        <alias field="County" index="22" name=""/>
+        <alias field="State" index="23" name=""/>
+        <alias field="X_Coord" index="24" name=""/>
+        <alias field="Y_Coord" index="25" name=""/>
+        <alias field="LAT" index="26" name=""/>
+        <alias field="LON" index="27" name=""/>
+        <alias field="Watershed" index="28" name=""/>
+        <alias field="SHAPE_Leng" index="29" name=""/>
+        <alias field="SHAPE_Area" index="30" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="FID" applyOnUpdate="0"/>
+        <default expression="" field="UNDERSTORY" applyOnUpdate="0"/>
+        <default expression="" field="UNDERSTO_1" applyOnUpdate="0"/>
+        <default expression="" field="DOMINANTVE" applyOnUpdate="0"/>
+        <default expression="" field="density" applyOnUpdate="0"/>
+        <default expression="" field="density_" applyOnUpdate="0"/>
+        <default expression="" field="Dens_Class" applyOnUpdate="0"/>
+        <default expression="" field="Descriptio" applyOnUpdate="0"/>
+        <default expression="" field="Class" applyOnUpdate="0"/>
+        <default expression="" field="Notes" applyOnUpdate="0"/>
+        <default expression="" field="VError" applyOnUpdate="0"/>
+        <default expression="" field="MapSource" applyOnUpdate="0"/>
+        <default expression="" field="SourceDate" applyOnUpdate="0"/>
+        <default expression="" field="Location_I" applyOnUpdate="0"/>
+        <default expression="" field="MapMethod" applyOnUpdate="0"/>
+        <default expression="" field="QuadName" applyOnUpdate="0"/>
+        <default expression="" field="UnitCode" applyOnUpdate="0"/>
+        <default expression="" field="EditDate" applyOnUpdate="0"/>
+        <default expression="" field="IsSensitiv" applyOnUpdate="0"/>
+        <default expression="" field="UnitName" applyOnUpdate="0"/>
+        <default expression="" field="IsExtant" applyOnUpdate="0"/>
+        <default expression="" field="HError" applyOnUpdate="0"/>
+        <default expression="" field="County" applyOnUpdate="0"/>
+        <default expression="" field="State" applyOnUpdate="0"/>
+        <default expression="" field="X_Coord" applyOnUpdate="0"/>
+        <default expression="" field="Y_Coord" applyOnUpdate="0"/>
+        <default expression="" field="LAT" applyOnUpdate="0"/>
+        <default expression="" field="LON" applyOnUpdate="0"/>
+        <default expression="" field="Watershed" applyOnUpdate="0"/>
+        <default expression="" field="SHAPE_Leng" applyOnUpdate="0"/>
+        <default expression="" field="SHAPE_Area" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="FID" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UNDERSTORY" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UNDERSTO_1" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="DOMINANTVE" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="density" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="density_" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Dens_Class" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Descriptio" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Class" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Notes" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="VError" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MapSource" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SourceDate" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Location_I" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="MapMethod" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="QuadName" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UnitCode" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="EditDate" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="IsSensitiv" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="UnitName" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="IsExtant" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="HError" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="County" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="State" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="X_Coord" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Y_Coord" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="LAT" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="LON" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="Watershed" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SHAPE_Leng" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+        <constraint field="SHAPE_Area" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="FID" desc="" exp=""/>
+        <constraint field="UNDERSTORY" desc="" exp=""/>
+        <constraint field="UNDERSTO_1" desc="" exp=""/>
+        <constraint field="DOMINANTVE" desc="" exp=""/>
+        <constraint field="density" desc="" exp=""/>
+        <constraint field="density_" desc="" exp=""/>
+        <constraint field="Dens_Class" desc="" exp=""/>
+        <constraint field="Descriptio" desc="" exp=""/>
+        <constraint field="Class" desc="" exp=""/>
+        <constraint field="Notes" desc="" exp=""/>
+        <constraint field="VError" desc="" exp=""/>
+        <constraint field="MapSource" desc="" exp=""/>
+        <constraint field="SourceDate" desc="" exp=""/>
+        <constraint field="Location_I" desc="" exp=""/>
+        <constraint field="MapMethod" desc="" exp=""/>
+        <constraint field="QuadName" desc="" exp=""/>
+        <constraint field="UnitCode" desc="" exp=""/>
+        <constraint field="EditDate" desc="" exp=""/>
+        <constraint field="IsSensitiv" desc="" exp=""/>
+        <constraint field="UnitName" desc="" exp=""/>
+        <constraint field="IsExtant" desc="" exp=""/>
+        <constraint field="HError" desc="" exp=""/>
+        <constraint field="County" desc="" exp=""/>
+        <constraint field="State" desc="" exp=""/>
+        <constraint field="X_Coord" desc="" exp=""/>
+        <constraint field="Y_Coord" desc="" exp=""/>
+        <constraint field="LAT" desc="" exp=""/>
+        <constraint field="LON" desc="" exp=""/>
+        <constraint field="Watershed" desc="" exp=""/>
+        <constraint field="SHAPE_Leng" desc="" exp=""/>
+        <constraint field="SHAPE_Area" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="GRSM_Roads_1d42331f_7fc0_4304_affe_80a0c923a8ce"/>
+    <layer id="GRSM_Vegetation_5c5ef413_2e3d_4c86_b06d_78d939a021a5"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7019</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext>
+    <srcDest allowFallback="1" coordinateOp="+proj=pipeline +step +inv +proj=utm +zone=17 +ellps=GRS80 +step +proj=unitconvert +xy_in=rad +xy_out=deg">
+      <src>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / UTM zone 17N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 17N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-81,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["North America - 84°W to 78°W and NAD83 by country"],BBOX[23.81,-84,84,-78]],ID["EPSG",26917]]</wkt>
+          <proj4>+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2294</srsid>
+          <srid>26917</srid>
+          <authid>EPSG:26917</authid>
+          <description>NAD83 / UTM zone 17N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </src>
+      <dest>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </dest>
+    </srcDest>
+  </transformContext>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Gwendolyn</author>
+    <creation>2020-07-19T17:32:49</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option value="" type="QChar" name="decimal_separator"/>
+        <Option value="6" type="int" name="decimals"/>
+        <Option value="0" type="int" name="direction_format"/>
+        <Option value="0" type="int" name="rounding_type"/>
+        <Option value="false" type="bool" name="show_plus"/>
+        <Option value="true" type="bool" name="show_thousand_separator"/>
+        <Option value="false" type="bool" name="show_trailing_zeros"/>
+        <Option value="" type="QChar" name="thousand_separator"/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>

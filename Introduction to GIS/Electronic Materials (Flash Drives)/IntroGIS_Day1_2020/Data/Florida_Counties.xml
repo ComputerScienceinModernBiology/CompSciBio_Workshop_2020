@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20031205</pubdate>
+                <title>Florida Counties</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>Southwest Florida Water Management District</publish>
+                </pubinfo>
+                <onlink>https://www31.swfwmd.state.fl.us/metadata/STATECOUNTIES.xml</onlink>
+                <onlink>https://www25.swfwmd.state.fl.us/arcgis12/rest/services/OpenData/Boundaries/MapServer/4</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Polygon counties within Florida. This service is for the Open Data Download application for the Southwest Florida Water Management District.</abstract>
+            <purpose>Polygon counties within Florida. This service is for the Open Data Download application for the Southwest Florida Water Management District.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20000516</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.633633</westbc>
+                <eastbc>-79.94749</eastbc>
+                <northbc>31.11766</northbc>
+                <southbc>24.45194</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ArcIMS Metadata Server Theme Codes</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Counties</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Florida</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>This REST service is only available from 6 A.M. to 10 P.M. daily. The data are being provided on an 'as is' basis. The District specifically disclaims any warranty, either expressed or implied, including, but not limited to, the implied warranties or merchantability and fitness for a particular use. The entire risk as to quality and performance is with the user. In no event will the District or its staff be liable for any direct, indirect, incidental, special, consequential, or other damages, including loss of profit, arising out of the use of these data even if the District has been advised of the possibility of such damages. All data are intended for resource management use and have not been collected or certified by a Florida-registered Surveyor and Mapper.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Southwest Florida Water Management District</cntorg>
+                    <cntper>Mapping and GIS Section</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2379 Broad Street (U.S. 41 South)</address>
+                    <city>Brooksville</city>
+                    <state>FL</state>
+                    <postal>34604-6899</postal>
+                    <country>AF</country>
+                </cntaddr>
+                <cntvoice>(352) 796-7211</cntvoice>
+                <cntfax>(352) 540-6018</cntfax>
+                <hours>8:00 a.m. to 5:00 p.m.</hours>
+            </cntinfo>
+        </ptcontac>
+        <native>ESRI ArcCatalog 10.2.2</native>
+        <crossref>
+            <citeinfo>
+                <title>DEP and FIPS county codes</title>
+            </citeinfo>
+        </crossref>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>The polygon attributes were not checked but were assumed to be correct from the original DEP data. Accuracy was estimated at approaching 100% as of May 2000. In December 2003, a domain was created for the attribute 'COUNTY' named dCOUNTY. The code was the value in the field and the description was the name of the County. This was used to validate the attributes. Errors, if any, were corrected in ArcMap 8.3.</attraccr>
+        </attracc>
+        <logic>The final product was checked against the source material. The Mapping and GIS section of the Southwest Florida Water Management District corrected any errors found.</logic>
+        <complete>There are no significant omissions.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>Accuracy should meet accuracy standards for a 1:2,000,000 scale map, +/- 1000 meters. In December 2003, the following Topolgy Rules were created and validated for the feature classes in the State County feature dataset: State County region must not overlap. State County region must be covered by State County boundary lines. The Cluster Tolerance was set at 0.005 meters. Any errors that were found were inspected and corrected using ArcMap 8.3.</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>19971014</pubdate>
+                        <title>USGS_Counties_2m.e00.Z</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>0</srcscale>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19971014</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>USGS_Counties_2m.e00.Z</srccitea>
+                <srccontr>Florida Department of Environmental Protection</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>The UNIX compressed file was downloaded from the DEP ftp site. The file was uncompressed using the UNIX uncompress command. The export file was imported using the ArcInfo IMPORT command. The fuzzy tolerance was set to .001 and polygon topology was created using the BUILD command. The coverage was projected from ALBERS to UTM using the PROJECT command with the projection parameters listed below. The BUILD command was then used to recreate polygon and create arc topology. The ArcInfo commands ADDITEM and DROPITEM were used to modify the polygon attribute table (PAT) and arc attribute table (AAT). The following items were added to the PAT: COUNTY, CNTYNAME, DATESTAMP. The following items were dropped from the PAT: MAJOR1, MINOR1, MAJOR2, MINOR2, NAME. The following items were added to the AAT: COASTBND, DATESTAMP. The REGIONDISSOLVE command was used to create a region subclass called COUNTY. The following projection file was used: INPUT PROJECTION ALBERS UNITS METERS DATUM HPGN PARAMETERS 24 0 0.000 31 30 0.000 -84 0 0.000 24 0 0.000 400000.00000 0.00000 OUTPUT PROJECTION UTM ZONE 17 UNITS METERS DATUM HPGN PARAMETERS END</procdesc>
+                <procdate>19991101</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Southwest Florida Water Management District</cntorg>
+                            <cntper>Mapping and GIS Section</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2379 Broad Street (U.S. 41 South)</address>
+                            <city>Brooksville</city>
+                            <state>FL</state>
+                            <postal>34604-6899</postal>
+                            <country>AF</country>
+                        </cntaddr>
+                        <cntvoice>(352) 796-7211</cntvoice>
+                        <cntfax>(352) 540-6018</cntfax>
+                        <hours>8:00 a.m. to 5:00 p.m.</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>In November and December 2003, an enterprise geodatabase was designed and implemented. Coverages were converted into feature classes using ArcCatalog 8.3. The feature classes were created new in a feature dataset, with column names, shape type, grid size, and projection information defined during creation. An X/Y Domain and Precision were set at MinX: -700,000; MinY: 2,000,000; Precision: 1000. Z-Values were set at MinZ: -20; Precision: 1000. The Grid Tile Size is 2,147,483.465. Data was then loaded into the feature classes from the coverages using the 'Load Data' tool in ArcCatalog 8.3. Topology and attributes were validated whenever possible. See Attribute Accuracy and Positional Accuracy for attribute domains used for attribute validation and topology rules used for positional validation, respectively.</procdesc>
+                <procdate>20031205</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Southwest Florida Water Management District</cntorg>
+                            <cntper>Mapping and GIS Section</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2379 Broad Street (U.S. 41 South)</address>
+                            <city>Brooksville</city>
+                            <state>FL</state>
+                            <postal>34604-6899</postal>
+                            <country>AF</country>
+                        </cntaddr>
+                        <cntvoice>(352) 796-7211</cntvoice>
+                        <cntfax>(352) 540-6018</cntfax>
+                        <hours>8:00 a.m. to 5:00 p.m.</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>In October 2009, the District's enterprise SDE vector data layers were re-projected from UTM to State Plane Feet. At this same time the data layers were loaded into SDE using ESRI's Spatial Data Type. The new data type allows users to use SQL queries for spatial inquiries.</procdesc>
+                <procdate>20091002</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Southwest Florida Water Management District</cntorg>
+                            <cntper>Mapping and GIS Section</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>2379 Broad Street (U.S. 41 South)</address>
+                            <city>Brooksville</city>
+                            <state>FL</state>
+                            <postal>34604-6899</postal>
+                            <country>AF</country>
+                        </cntaddr>
+                        <cntvoice>(352) 796-7211</cntvoice>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <ptvctcnt>67</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>SDECREATOR.STATECOUNTIES</enttypl>
+                <enttypd>SDE Geodatabase feature class</enttypd>
+                <enttypds>ESRI Geodatabase</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTYNAME</attrlabl>
+                <attrdef>Federal Information Processing Standard (FIPS) complete county name.</attrdef>
+                <attrdefs>User Defined</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Character name</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+                <attrdef>Area of feature in internal units squared.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DATESTAMP</attrlabl>
+                <attrdef>The date the feature was last edited or entered into the map libraries by SWFWMD staff.</attrdef>
+                <attrdefs>User Defined</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>date</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DEPCODE</attrlabl>
+                <attrdef>DEP county code (values from 1 to 67) assigned to counties in alphabetical order (Alachua to Washington).</attrdef>
+                <attrdefs>User Defined</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>DEP code</codesetn>
+                                                						
+                        
+                        <codesets>Department of Environmental Protection County Codes</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+                <attrdef>FIPS code (values from 001 to 133, odd numbers only) assigned to counties in alphabetical order (Alachua to Washington).</attrdef>
+                <attrdefs>User Defined</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>FIPS codeset</codesetn>
+                                                						
+                        
+                        <codesets>Federal Information Processing Standard</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Southwest Florida Water Management District</cntorg>
+                    <cntper>Mapping and GIS Section</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2379 Broad Street (U.S. 41 South)</address>
+                    <city>Brooksville</city>
+                    <state>FL</state>
+                    <postal>34604-6899</postal>
+                    <country>AF</country>
+                </cntaddr>
+                <cntvoice>(352) 796-7211</cntvoice>
+                <cntfax>(352) 540-6018</cntfax>
+                <hours>8:00 a.m. to 5:00 p.m.</hours>
+            </cntinfo>
+        </distrib>
+        <resdesc>The data are being provided on an 'as is' basis. The District specifically disclaims any warranty, expressed or implied, including, but not limited to, the implied warranties or merchantability and fitness for a particular use. The entire risk as to quality and performance is with the user. In no event will the District or its staff be liable for any direct, indirect, incidental, special, consequential, or other damages, including loss of profit, arising out of the use of these data even if the District has been advised of the possibility of such damages. All data are intended for resource management use.</resdesc>
+        <distliab>Translation of files to formats other than those described here is the sole responsibility of individuals downloading the data.</distliab>
+    </distinfo>
+    <metainfo>
+        <metd>20100412</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Southwest Florida Water Management District</cntorg>
+                    <cntper>Mapping and GIS Section</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>2379 Broad Street (U.S. 41 South)</address>
+                    <city>Brooksville</city>
+                    <state>FL</state>
+                    <postal>34604-6899</postal>
+                    <country>AF</country>
+                </cntaddr>
+                <cntvoice>(352) 796-7211</cntvoice>
+                <cntfax>(352) 540-6018</cntfax>
+                <hours>8:00 a.m. to 5:00 p.m.</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

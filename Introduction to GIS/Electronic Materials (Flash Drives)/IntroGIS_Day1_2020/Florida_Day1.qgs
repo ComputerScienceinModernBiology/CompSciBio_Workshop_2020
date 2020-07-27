@@ -1,0 +1,1553 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis saveUser="Gwendolyn" saveUserFull="Gwendolyn" projectname="" version="3.12.3-București">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer checked="Qt::Unchecked" source="./Data/Florida_Counties.shp" name="Florida_Counties" providerKey="ogr" id="Florida_Counties_f0c34848_00e9_49d3_8a8b_2916eba0fcdd" expanded="1" legend_exp="">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Unchecked" source="./Data/GroceryMap_FL.shp" name="GroceryMap_FL" providerKey="ogr" id="GroceryMap_FL_59b9d803_6bf2_4d43_a1b2_7fa262fee5b2" expanded="1" legend_exp="">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Unchecked" source="./Data/DiabetesMap_FL.shp" name="DiabetesMap_FL" providerKey="ogr" id="DiabetesMap_FL_5d2d293c_3962_48e9_9e12_23d74e604d16" expanded="1" legend_exp="">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>DiabetesMap_FL_5d2d293c_3962_48e9_9e12_23d74e604d16</item>
+      <item>GroceryMap_FL_59b9d803_6bf2_4d43_a1b2_7fa262fee5b2</item>
+      <item>Florida_Counties_f0c34848_00e9_49d3_8a8b_2916eba0fcdd</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="1" intersection-snapping="0" mode="2" type="1" tolerance="12" enabled="0">
+    <individual-layer-settings>
+      <layer-setting units="1" type="1" tolerance="12" enabled="0" id="Florida_Counties_f0c34848_00e9_49d3_8a8b_2916eba0fcdd"/>
+      <layer-setting units="1" type="1" tolerance="12" enabled="0" id="DiabetesMap_FL_5d2d293c_3962_48e9_9e12_23d74e604d16"/>
+      <layer-setting units="1" type="1" tolerance="12" enabled="0" id="GroceryMap_FL_59b9d803_6bf2_4d43_a1b2_7fa262fee5b2"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>-87.53817933775542315</xmin>
+      <ymin>24.60099996700112257</ymin>
+      <xmax>-79.56337245710130901</xmax>
+      <ymax>31.37539623557249513</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer checked="Qt::Unchecked" showFeatureCount="0" name="Florida_Counties" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="0" layerid="Florida_Counties_f0c34848_00e9_49d3_8a8b_2916eba0fcdd"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Unchecked" showFeatureCount="0" name="GroceryMap_FL" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="0" layerid="GroceryMap_FL_59b9d803_6bf2_4d43_a1b2_7fa262fee5b2"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Unchecked" showFeatureCount="0" name="DiabetesMap_FL" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="0" layerid="DiabetesMap_FL_5d2d293c_3962_48e9_9e12_23d74e604d16"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer autoRefreshTime="0" minScale="100000000" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" labelsEnabled="0" geometry="Polygon" maxScale="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" simplifyDrawingHints="1" type="vector" simplifyMaxScale="1" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-87.62600629469464764</xmin>
+        <ymin>24.54521717577602402</ymin>
+        <xmax>-80.03095212264302916</xmax>
+        <ymax>30.99702314584398621</ymax>
+      </extent>
+      <id>DiabetesMap_FL_5d2d293c_3962_48e9_9e12_23d74e604d16</id>
+      <datasource>./Data/DiabetesMap_FL.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>DiabetesMap_FL</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" alpha="1" name="0">
+            <layer pass="0" locked="0" class="SimpleFill" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="64,64,64,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <LinearlyInterpolatedDiagramRenderer diagramType="Histogram" lowerValue="0" lowerHeight="0" upperWidth="5" classificationAttributeExpression="" upperHeight="5" upperValue="0" lowerWidth="0" attributeLegend="1">
+        <DiagramCategory spacingUnit="MM" showAxis="1" rotationOffset="270" lineSizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" diagramOrientation="Up" minimumSize="0" backgroundColor="#ffffff" sizeType="MM" backgroundAlpha="255" opacity="1" labelPlacementMethod="XHeight" lineSizeType="MM" spacingUnitScale="3x:0,0,0,0,0,0" minScaleDenominator="0" penAlpha="255" enabled="0" sizeScale="3x:0,0,0,0,0,0" penWidth="0" scaleDependency="Area" height="15" direction="0" penColor="#000000" spacing="5" scaleBasedVisibility="0" barWidth="5" width="15">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
+          <axisSymbol>
+            <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="">
+              <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </LinearlyInterpolatedDiagramRenderer>
+      <DiagramLayerSettings showAll="1" placement="1" priority="0" dist="0" obstacle="0" zIndex="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option value="0" type="double" name="allowedGapsBuffer"/>
+            <Option value="false" type="bool" name="allowedGapsEnabled"/>
+            <Option value="" type="QString" name="allowedGapsLayer"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DEPCODE">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTYNAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DATESTAMP">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ShapeSTAre">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ShapeSTLen">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="County_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="State">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CountyFIPS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Percentage">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Lower_Limi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Upper_Limi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="DEPCODE" index="1" name=""/>
+        <alias field="COUNTY" index="2" name=""/>
+        <alias field="COUNTYNAME" index="3" name=""/>
+        <alias field="DATESTAMP" index="4" name=""/>
+        <alias field="ShapeSTAre" index="5" name=""/>
+        <alias field="ShapeSTLen" index="6" name=""/>
+        <alias field="County_1" index="7" name=""/>
+        <alias field="State" index="8" name=""/>
+        <alias field="CountyFIPS" index="9" name=""/>
+        <alias field="Percentage" index="10" name=""/>
+        <alias field="Lower_Limi" index="11" name=""/>
+        <alias field="Upper_Limi" index="12" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="OBJECTID" expression="" applyOnUpdate="0"/>
+        <default field="DEPCODE" expression="" applyOnUpdate="0"/>
+        <default field="COUNTY" expression="" applyOnUpdate="0"/>
+        <default field="COUNTYNAME" expression="" applyOnUpdate="0"/>
+        <default field="DATESTAMP" expression="" applyOnUpdate="0"/>
+        <default field="ShapeSTAre" expression="" applyOnUpdate="0"/>
+        <default field="ShapeSTLen" expression="" applyOnUpdate="0"/>
+        <default field="County_1" expression="" applyOnUpdate="0"/>
+        <default field="State" expression="" applyOnUpdate="0"/>
+        <default field="CountyFIPS" expression="" applyOnUpdate="0"/>
+        <default field="Percentage" expression="" applyOnUpdate="0"/>
+        <default field="Lower_Limi" expression="" applyOnUpdate="0"/>
+        <default field="Upper_Limi" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="OBJECTID" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="DEPCODE" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="COUNTY" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="COUNTYNAME" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="DATESTAMP" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="ShapeSTAre" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="ShapeSTLen" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="County_1" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="State" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="CountyFIPS" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="Percentage" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="Lower_Limi" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="Upper_Limi" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="OBJECTID" desc="" exp=""/>
+        <constraint field="DEPCODE" desc="" exp=""/>
+        <constraint field="COUNTY" desc="" exp=""/>
+        <constraint field="COUNTYNAME" desc="" exp=""/>
+        <constraint field="DATESTAMP" desc="" exp=""/>
+        <constraint field="ShapeSTAre" desc="" exp=""/>
+        <constraint field="ShapeSTLen" desc="" exp=""/>
+        <constraint field="County_1" desc="" exp=""/>
+        <constraint field="State" desc="" exp=""/>
+        <constraint field="CountyFIPS" desc="" exp=""/>
+        <constraint field="Percentage" desc="" exp=""/>
+        <constraint field="Lower_Limi" desc="" exp=""/>
+        <constraint field="Upper_Limi" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" type="field" hidden="0" name="OBJECTID"/>
+          <column width="-1" type="field" hidden="0" name="DEPCODE"/>
+          <column width="-1" type="field" hidden="0" name="COUNTY"/>
+          <column width="-1" type="field" hidden="0" name="COUNTYNAME"/>
+          <column width="-1" type="field" hidden="0" name="DATESTAMP"/>
+          <column width="-1" type="field" hidden="0" name="ShapeSTAre"/>
+          <column width="-1" type="field" hidden="0" name="ShapeSTLen"/>
+          <column width="-1" type="field" hidden="0" name="County_1"/>
+          <column width="-1" type="field" hidden="0" name="State"/>
+          <column width="-1" type="field" hidden="0" name="CountyFIPS"/>
+          <column width="-1" type="field" hidden="0" name="Percentage"/>
+          <column width="-1" type="field" hidden="0" name="Lower_Limi"/>
+          <column width="-1" type="field" hidden="0" name="Upper_Limi"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="COUNTY" editable="1"/>
+        <field name="COUNTYNAME" editable="1"/>
+        <field name="CountyFIPS" editable="1"/>
+        <field name="County_1" editable="1"/>
+        <field name="DATESTAMP" editable="1"/>
+        <field name="DEPCODE" editable="1"/>
+        <field name="Lower_Limi" editable="1"/>
+        <field name="OBJECTID" editable="1"/>
+        <field name="Percentage" editable="1"/>
+        <field name="ShapeSTAre" editable="1"/>
+        <field name="ShapeSTLen" editable="1"/>
+        <field name="State" editable="1"/>
+        <field name="Upper_Limi" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="COUNTY" labelOnTop="0"/>
+        <field name="COUNTYNAME" labelOnTop="0"/>
+        <field name="CountyFIPS" labelOnTop="0"/>
+        <field name="County_1" labelOnTop="0"/>
+        <field name="DATESTAMP" labelOnTop="0"/>
+        <field name="DEPCODE" labelOnTop="0"/>
+        <field name="Lower_Limi" labelOnTop="0"/>
+        <field name="OBJECTID" labelOnTop="0"/>
+        <field name="Percentage" labelOnTop="0"/>
+        <field name="ShapeSTAre" labelOnTop="0"/>
+        <field name="ShapeSTLen" labelOnTop="0"/>
+        <field name="State" labelOnTop="0"/>
+        <field name="Upper_Limi" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>COUNTYNAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" minScale="100000000" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" labelsEnabled="0" geometry="Polygon" maxScale="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" simplifyDrawingHints="1" type="vector" simplifyMaxScale="1" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-87.62600629469464764</xmin>
+        <ymin>24.54521717577602402</ymin>
+        <xmax>-80.03095212264302916</xmax>
+        <ymax>30.99702314584398621</ymax>
+      </extent>
+      <id>Florida_Counties_f0c34848_00e9_49d3_8a8b_2916eba0fcdd</id>
+      <datasource>./Data/Florida_Counties.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Florida_Counties</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" alpha="1" name="0">
+            <layer pass="0" locked="0" class="SimpleFill" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="133,182,111,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DEPCODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTYNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DATESTAMP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ShapeSTAre">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ShapeSTLen">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="DEPCODE" index="1" name=""/>
+        <alias field="COUNTY" index="2" name=""/>
+        <alias field="COUNTYNAME" index="3" name=""/>
+        <alias field="DATESTAMP" index="4" name=""/>
+        <alias field="ShapeSTAre" index="5" name=""/>
+        <alias field="ShapeSTLen" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="OBJECTID" expression="" applyOnUpdate="0"/>
+        <default field="DEPCODE" expression="" applyOnUpdate="0"/>
+        <default field="COUNTY" expression="" applyOnUpdate="0"/>
+        <default field="COUNTYNAME" expression="" applyOnUpdate="0"/>
+        <default field="DATESTAMP" expression="" applyOnUpdate="0"/>
+        <default field="ShapeSTAre" expression="" applyOnUpdate="0"/>
+        <default field="ShapeSTLen" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="OBJECTID" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="DEPCODE" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="COUNTY" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="COUNTYNAME" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="DATESTAMP" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="ShapeSTAre" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="ShapeSTLen" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="OBJECTID" desc="" exp=""/>
+        <constraint field="DEPCODE" desc="" exp=""/>
+        <constraint field="COUNTY" desc="" exp=""/>
+        <constraint field="COUNTYNAME" desc="" exp=""/>
+        <constraint field="DATESTAMP" desc="" exp=""/>
+        <constraint field="ShapeSTAre" desc="" exp=""/>
+        <constraint field="ShapeSTLen" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" minScale="100000000" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" labelsEnabled="0" geometry="Polygon" maxScale="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" simplifyDrawingHints="1" type="vector" simplifyMaxScale="1" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-87.62600629469464764</xmin>
+        <ymin>24.54521717577602402</ymin>
+        <xmax>-80.03095212264302916</xmax>
+        <ymax>30.99702314584398621</ymax>
+      </extent>
+      <id>GroceryMap_FL_59b9d803_6bf2_4d43_a1b2_7fa262fee5b2</id>
+      <datasource>./Data/GroceryMap_FL.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>GroceryMap_FL</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" enableorderby="0" symbollevels="0" forceraster="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" clip_to_extent="1" alpha="1" name="0">
+            <layer pass="0" locked="0" class="SimpleFill" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="190,207,80,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory spacingUnit="MM" showAxis="1" rotationOffset="270" lineSizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" diagramOrientation="Up" minimumSize="0" backgroundColor="#ffffff" sizeType="MM" backgroundAlpha="255" opacity="1" labelPlacementMethod="XHeight" lineSizeType="MM" spacingUnitScale="3x:0,0,0,0,0,0" minScaleDenominator="0" penAlpha="255" enabled="0" sizeScale="3x:0,0,0,0,0,0" penWidth="0" scaleDependency="Area" height="15" direction="0" penColor="#000000" spacing="5" scaleBasedVisibility="0" barWidth="5" width="15">
+          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" label="" color="#000000"/>
+          <axisSymbol>
+            <symbol force_rhr="0" type="line" clip_to_extent="1" alpha="1" name="">
+              <layer pass="0" locked="0" class="SimpleLine" enabled="1">
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" type="QString" name="name"/>
+                    <Option name="properties"/>
+                    <Option value="collection" type="QString" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" placement="1" priority="0" dist="0" obstacle="0" zIndex="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option value="0" type="double" name="allowedGapsBuffer"/>
+            <Option value="false" type="bool" name="allowedGapsEnabled"/>
+            <Option value="" type="QString" name="allowedGapsLayer"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="COUNTYNAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ShapeSTAre">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ShapeSTLen">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GROC09">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GROC14">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_GROC_0">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GROCPTH09">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GROCPTH14">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_GROCPT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUPERC09">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUPERC14">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_SUPERC">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUPERCPTH0">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SUPERCPTH1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_SUPE_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONVS09">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONVS14">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_CONVS_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONVSPTH09">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONVSPTH14">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_CONVSP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPECS09">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPECS14">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_SPECS_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPECSPTH09">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPECSPTH14">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_SPECSP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SNAPS12">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SNAPS16">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_SNAPS_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SNAPSPTH12">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SNAPSPTH16">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_SNAPSP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WICS08">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WICS12">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_WICS_0">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WICSPTH08">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WICSPTH12">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PCH_WICSPT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="COUNTYNAME" index="0" name=""/>
+        <alias field="ShapeSTAre" index="1" name=""/>
+        <alias field="ShapeSTLen" index="2" name=""/>
+        <alias field="GROC09" index="3" name=""/>
+        <alias field="GROC14" index="4" name=""/>
+        <alias field="PCH_GROC_0" index="5" name=""/>
+        <alias field="GROCPTH09" index="6" name=""/>
+        <alias field="GROCPTH14" index="7" name=""/>
+        <alias field="PCH_GROCPT" index="8" name=""/>
+        <alias field="SUPERC09" index="9" name=""/>
+        <alias field="SUPERC14" index="10" name=""/>
+        <alias field="PCH_SUPERC" index="11" name=""/>
+        <alias field="SUPERCPTH0" index="12" name=""/>
+        <alias field="SUPERCPTH1" index="13" name=""/>
+        <alias field="PCH_SUPE_1" index="14" name=""/>
+        <alias field="CONVS09" index="15" name=""/>
+        <alias field="CONVS14" index="16" name=""/>
+        <alias field="PCH_CONVS_" index="17" name=""/>
+        <alias field="CONVSPTH09" index="18" name=""/>
+        <alias field="CONVSPTH14" index="19" name=""/>
+        <alias field="PCH_CONVSP" index="20" name=""/>
+        <alias field="SPECS09" index="21" name=""/>
+        <alias field="SPECS14" index="22" name=""/>
+        <alias field="PCH_SPECS_" index="23" name=""/>
+        <alias field="SPECSPTH09" index="24" name=""/>
+        <alias field="SPECSPTH14" index="25" name=""/>
+        <alias field="PCH_SPECSP" index="26" name=""/>
+        <alias field="SNAPS12" index="27" name=""/>
+        <alias field="SNAPS16" index="28" name=""/>
+        <alias field="PCH_SNAPS_" index="29" name=""/>
+        <alias field="SNAPSPTH12" index="30" name=""/>
+        <alias field="SNAPSPTH16" index="31" name=""/>
+        <alias field="PCH_SNAPSP" index="32" name=""/>
+        <alias field="WICS08" index="33" name=""/>
+        <alias field="WICS12" index="34" name=""/>
+        <alias field="PCH_WICS_0" index="35" name=""/>
+        <alias field="WICSPTH08" index="36" name=""/>
+        <alias field="WICSPTH12" index="37" name=""/>
+        <alias field="PCH_WICSPT" index="38" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="COUNTYNAME" expression="" applyOnUpdate="0"/>
+        <default field="ShapeSTAre" expression="" applyOnUpdate="0"/>
+        <default field="ShapeSTLen" expression="" applyOnUpdate="0"/>
+        <default field="GROC09" expression="" applyOnUpdate="0"/>
+        <default field="GROC14" expression="" applyOnUpdate="0"/>
+        <default field="PCH_GROC_0" expression="" applyOnUpdate="0"/>
+        <default field="GROCPTH09" expression="" applyOnUpdate="0"/>
+        <default field="GROCPTH14" expression="" applyOnUpdate="0"/>
+        <default field="PCH_GROCPT" expression="" applyOnUpdate="0"/>
+        <default field="SUPERC09" expression="" applyOnUpdate="0"/>
+        <default field="SUPERC14" expression="" applyOnUpdate="0"/>
+        <default field="PCH_SUPERC" expression="" applyOnUpdate="0"/>
+        <default field="SUPERCPTH0" expression="" applyOnUpdate="0"/>
+        <default field="SUPERCPTH1" expression="" applyOnUpdate="0"/>
+        <default field="PCH_SUPE_1" expression="" applyOnUpdate="0"/>
+        <default field="CONVS09" expression="" applyOnUpdate="0"/>
+        <default field="CONVS14" expression="" applyOnUpdate="0"/>
+        <default field="PCH_CONVS_" expression="" applyOnUpdate="0"/>
+        <default field="CONVSPTH09" expression="" applyOnUpdate="0"/>
+        <default field="CONVSPTH14" expression="" applyOnUpdate="0"/>
+        <default field="PCH_CONVSP" expression="" applyOnUpdate="0"/>
+        <default field="SPECS09" expression="" applyOnUpdate="0"/>
+        <default field="SPECS14" expression="" applyOnUpdate="0"/>
+        <default field="PCH_SPECS_" expression="" applyOnUpdate="0"/>
+        <default field="SPECSPTH09" expression="" applyOnUpdate="0"/>
+        <default field="SPECSPTH14" expression="" applyOnUpdate="0"/>
+        <default field="PCH_SPECSP" expression="" applyOnUpdate="0"/>
+        <default field="SNAPS12" expression="" applyOnUpdate="0"/>
+        <default field="SNAPS16" expression="" applyOnUpdate="0"/>
+        <default field="PCH_SNAPS_" expression="" applyOnUpdate="0"/>
+        <default field="SNAPSPTH12" expression="" applyOnUpdate="0"/>
+        <default field="SNAPSPTH16" expression="" applyOnUpdate="0"/>
+        <default field="PCH_SNAPSP" expression="" applyOnUpdate="0"/>
+        <default field="WICS08" expression="" applyOnUpdate="0"/>
+        <default field="WICS12" expression="" applyOnUpdate="0"/>
+        <default field="PCH_WICS_0" expression="" applyOnUpdate="0"/>
+        <default field="WICSPTH08" expression="" applyOnUpdate="0"/>
+        <default field="WICSPTH12" expression="" applyOnUpdate="0"/>
+        <default field="PCH_WICSPT" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="COUNTYNAME" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="ShapeSTAre" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="ShapeSTLen" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="GROC09" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="GROC14" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_GROC_0" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="GROCPTH09" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="GROCPTH14" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_GROCPT" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SUPERC09" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SUPERC14" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_SUPERC" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SUPERCPTH0" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SUPERCPTH1" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_SUPE_1" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="CONVS09" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="CONVS14" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_CONVS_" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="CONVSPTH09" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="CONVSPTH14" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_CONVSP" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SPECS09" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SPECS14" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_SPECS_" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SPECSPTH09" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SPECSPTH14" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_SPECSP" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SNAPS12" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SNAPS16" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_SNAPS_" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SNAPSPTH12" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="SNAPSPTH16" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_SNAPSP" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="WICS08" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="WICS12" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_WICS_0" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="WICSPTH08" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="WICSPTH12" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="PCH_WICSPT" constraints="0" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="COUNTYNAME" desc="" exp=""/>
+        <constraint field="ShapeSTAre" desc="" exp=""/>
+        <constraint field="ShapeSTLen" desc="" exp=""/>
+        <constraint field="GROC09" desc="" exp=""/>
+        <constraint field="GROC14" desc="" exp=""/>
+        <constraint field="PCH_GROC_0" desc="" exp=""/>
+        <constraint field="GROCPTH09" desc="" exp=""/>
+        <constraint field="GROCPTH14" desc="" exp=""/>
+        <constraint field="PCH_GROCPT" desc="" exp=""/>
+        <constraint field="SUPERC09" desc="" exp=""/>
+        <constraint field="SUPERC14" desc="" exp=""/>
+        <constraint field="PCH_SUPERC" desc="" exp=""/>
+        <constraint field="SUPERCPTH0" desc="" exp=""/>
+        <constraint field="SUPERCPTH1" desc="" exp=""/>
+        <constraint field="PCH_SUPE_1" desc="" exp=""/>
+        <constraint field="CONVS09" desc="" exp=""/>
+        <constraint field="CONVS14" desc="" exp=""/>
+        <constraint field="PCH_CONVS_" desc="" exp=""/>
+        <constraint field="CONVSPTH09" desc="" exp=""/>
+        <constraint field="CONVSPTH14" desc="" exp=""/>
+        <constraint field="PCH_CONVSP" desc="" exp=""/>
+        <constraint field="SPECS09" desc="" exp=""/>
+        <constraint field="SPECS14" desc="" exp=""/>
+        <constraint field="PCH_SPECS_" desc="" exp=""/>
+        <constraint field="SPECSPTH09" desc="" exp=""/>
+        <constraint field="SPECSPTH14" desc="" exp=""/>
+        <constraint field="PCH_SPECSP" desc="" exp=""/>
+        <constraint field="SNAPS12" desc="" exp=""/>
+        <constraint field="SNAPS16" desc="" exp=""/>
+        <constraint field="PCH_SNAPS_" desc="" exp=""/>
+        <constraint field="SNAPSPTH12" desc="" exp=""/>
+        <constraint field="SNAPSPTH16" desc="" exp=""/>
+        <constraint field="PCH_SNAPSP" desc="" exp=""/>
+        <constraint field="WICS08" desc="" exp=""/>
+        <constraint field="WICS12" desc="" exp=""/>
+        <constraint field="PCH_WICS_0" desc="" exp=""/>
+        <constraint field="WICSPTH08" desc="" exp=""/>
+        <constraint field="WICSPTH12" desc="" exp=""/>
+        <constraint field="PCH_WICSPT" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column width="-1" type="field" hidden="0" name="COUNTYNAME"/>
+          <column width="-1" type="field" hidden="0" name="ShapeSTAre"/>
+          <column width="-1" type="field" hidden="0" name="ShapeSTLen"/>
+          <column width="-1" type="field" hidden="0" name="GROC09"/>
+          <column width="-1" type="field" hidden="0" name="GROC14"/>
+          <column width="-1" type="field" hidden="0" name="PCH_GROC_0"/>
+          <column width="-1" type="field" hidden="0" name="GROCPTH09"/>
+          <column width="-1" type="field" hidden="0" name="GROCPTH14"/>
+          <column width="-1" type="field" hidden="0" name="PCH_GROCPT"/>
+          <column width="-1" type="field" hidden="0" name="SUPERC09"/>
+          <column width="-1" type="field" hidden="0" name="SUPERC14"/>
+          <column width="-1" type="field" hidden="0" name="PCH_SUPERC"/>
+          <column width="-1" type="field" hidden="0" name="SUPERCPTH0"/>
+          <column width="-1" type="field" hidden="0" name="SUPERCPTH1"/>
+          <column width="-1" type="field" hidden="0" name="PCH_SUPE_1"/>
+          <column width="-1" type="field" hidden="0" name="CONVS09"/>
+          <column width="-1" type="field" hidden="0" name="CONVS14"/>
+          <column width="-1" type="field" hidden="0" name="PCH_CONVS_"/>
+          <column width="-1" type="field" hidden="0" name="CONVSPTH09"/>
+          <column width="-1" type="field" hidden="0" name="CONVSPTH14"/>
+          <column width="-1" type="field" hidden="0" name="PCH_CONVSP"/>
+          <column width="-1" type="field" hidden="0" name="SPECS09"/>
+          <column width="-1" type="field" hidden="0" name="SPECS14"/>
+          <column width="-1" type="field" hidden="0" name="PCH_SPECS_"/>
+          <column width="-1" type="field" hidden="0" name="SPECSPTH09"/>
+          <column width="-1" type="field" hidden="0" name="SPECSPTH14"/>
+          <column width="-1" type="field" hidden="0" name="PCH_SPECSP"/>
+          <column width="-1" type="field" hidden="0" name="SNAPS12"/>
+          <column width="-1" type="field" hidden="0" name="SNAPS16"/>
+          <column width="-1" type="field" hidden="0" name="PCH_SNAPS_"/>
+          <column width="-1" type="field" hidden="0" name="SNAPSPTH12"/>
+          <column width="-1" type="field" hidden="0" name="SNAPSPTH16"/>
+          <column width="-1" type="field" hidden="0" name="PCH_SNAPSP"/>
+          <column width="-1" type="field" hidden="0" name="WICS08"/>
+          <column width="-1" type="field" hidden="0" name="WICS12"/>
+          <column width="-1" type="field" hidden="0" name="PCH_WICS_0"/>
+          <column width="-1" type="field" hidden="0" name="WICSPTH08"/>
+          <column width="-1" type="field" hidden="0" name="WICSPTH12"/>
+          <column width="-1" type="field" hidden="0" name="PCH_WICSPT"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="CONVS09" editable="1"/>
+        <field name="CONVS14" editable="1"/>
+        <field name="CONVSPTH09" editable="1"/>
+        <field name="CONVSPTH14" editable="1"/>
+        <field name="COUNTYNAME" editable="1"/>
+        <field name="GROC09" editable="1"/>
+        <field name="GROC14" editable="1"/>
+        <field name="GROCPTH09" editable="1"/>
+        <field name="GROCPTH14" editable="1"/>
+        <field name="PCH_CONVSP" editable="1"/>
+        <field name="PCH_CONVS_" editable="1"/>
+        <field name="PCH_GROCPT" editable="1"/>
+        <field name="PCH_GROC_0" editable="1"/>
+        <field name="PCH_SNAPSP" editable="1"/>
+        <field name="PCH_SNAPS_" editable="1"/>
+        <field name="PCH_SPECSP" editable="1"/>
+        <field name="PCH_SPECS_" editable="1"/>
+        <field name="PCH_SUPERC" editable="1"/>
+        <field name="PCH_SUPE_1" editable="1"/>
+        <field name="PCH_WICSPT" editable="1"/>
+        <field name="PCH_WICS_0" editable="1"/>
+        <field name="SNAPS12" editable="1"/>
+        <field name="SNAPS16" editable="1"/>
+        <field name="SNAPSPTH12" editable="1"/>
+        <field name="SNAPSPTH16" editable="1"/>
+        <field name="SPECS09" editable="1"/>
+        <field name="SPECS14" editable="1"/>
+        <field name="SPECSPTH09" editable="1"/>
+        <field name="SPECSPTH14" editable="1"/>
+        <field name="SUPERC09" editable="1"/>
+        <field name="SUPERC14" editable="1"/>
+        <field name="SUPERCPTH0" editable="1"/>
+        <field name="SUPERCPTH1" editable="1"/>
+        <field name="ShapeSTAre" editable="1"/>
+        <field name="ShapeSTLen" editable="1"/>
+        <field name="WICS08" editable="1"/>
+        <field name="WICS12" editable="1"/>
+        <field name="WICSPTH08" editable="1"/>
+        <field name="WICSPTH12" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="CONVS09" labelOnTop="0"/>
+        <field name="CONVS14" labelOnTop="0"/>
+        <field name="CONVSPTH09" labelOnTop="0"/>
+        <field name="CONVSPTH14" labelOnTop="0"/>
+        <field name="COUNTYNAME" labelOnTop="0"/>
+        <field name="GROC09" labelOnTop="0"/>
+        <field name="GROC14" labelOnTop="0"/>
+        <field name="GROCPTH09" labelOnTop="0"/>
+        <field name="GROCPTH14" labelOnTop="0"/>
+        <field name="PCH_CONVSP" labelOnTop="0"/>
+        <field name="PCH_CONVS_" labelOnTop="0"/>
+        <field name="PCH_GROCPT" labelOnTop="0"/>
+        <field name="PCH_GROC_0" labelOnTop="0"/>
+        <field name="PCH_SNAPSP" labelOnTop="0"/>
+        <field name="PCH_SNAPS_" labelOnTop="0"/>
+        <field name="PCH_SPECSP" labelOnTop="0"/>
+        <field name="PCH_SPECS_" labelOnTop="0"/>
+        <field name="PCH_SUPERC" labelOnTop="0"/>
+        <field name="PCH_SUPE_1" labelOnTop="0"/>
+        <field name="PCH_WICSPT" labelOnTop="0"/>
+        <field name="PCH_WICS_0" labelOnTop="0"/>
+        <field name="SNAPS12" labelOnTop="0"/>
+        <field name="SNAPS16" labelOnTop="0"/>
+        <field name="SNAPSPTH12" labelOnTop="0"/>
+        <field name="SNAPSPTH16" labelOnTop="0"/>
+        <field name="SPECS09" labelOnTop="0"/>
+        <field name="SPECS14" labelOnTop="0"/>
+        <field name="SPECSPTH09" labelOnTop="0"/>
+        <field name="SPECSPTH14" labelOnTop="0"/>
+        <field name="SUPERC09" labelOnTop="0"/>
+        <field name="SUPERC14" labelOnTop="0"/>
+        <field name="SUPERCPTH0" labelOnTop="0"/>
+        <field name="SUPERCPTH1" labelOnTop="0"/>
+        <field name="ShapeSTAre" labelOnTop="0"/>
+        <field name="ShapeSTLen" labelOnTop="0"/>
+        <field name="WICS08" labelOnTop="0"/>
+        <field name="WICS12" labelOnTop="0"/>
+        <field name="WICSPTH08" labelOnTop="0"/>
+        <field name="WICSPTH12" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>COUNTYNAME</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="DiabetesMap_FL_5d2d293c_3962_48e9_9e12_23d74e604d16"/>
+    <layer id="GroceryMap_FL_59b9d803_6bf2_4d43_a1b2_7fa262fee5b2"/>
+    <layer id="Florida_Counties_f0c34848_00e9_49d3_8a8b_2916eba0fcdd"/>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>Gwendolyn</author>
+    <creation>2020-07-16T14:42:11</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+  </ProjectViewSettings>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option value="" type="QChar" name="decimal_separator"/>
+        <Option value="6" type="int" name="decimals"/>
+        <Option value="0" type="int" name="direction_format"/>
+        <Option value="0" type="int" name="rounding_type"/>
+        <Option value="false" type="bool" name="show_plus"/>
+        <Option value="true" type="bool" name="show_thousand_separator"/>
+        <Option value="false" type="bool" name="show_trailing_zeros"/>
+        <Option value="" type="QChar" name="thousand_separator"/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>

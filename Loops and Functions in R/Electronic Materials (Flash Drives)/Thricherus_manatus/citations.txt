@@ -1,0 +1,46 @@
+When using this dataset please use the following citation and pay attention to the rights documented in rights.txt:
+San Diego Natural History Museum. Mammal specimens. Version 1.0. Occurrence dataset https://doi.org/10.15468/evdcls accessed via GBIF.org on 2020-07-22.
+Garner H (2016). TTU Mammals Collection. Version 9.1. Museum of Texas Tech University (TTU). Occurrence dataset https://doi.org/10.15468/yocqyp accessed via GBIF.org on 2020-07-22.
+Braker E (2020). UCM Mammal Collection (Arctos). University of Colorado Museum of Natural History. Occurrence dataset https://doi.org/10.15468/rwtmwf accessed via GBIF.org on 2020-07-22.
+Shugart G (2016). PSM Vertebrates Collection. Version 8.1. James R. Slater Museum of Natural History. Occurrence dataset https://doi.org/10.15468/3oaz5o accessed via GBIF.org on 2020-07-22.
+Orrell T (2020). NMNH Paleobiology Specimen Records. Version 1.30. National Museum of Natural History, Smithsonian Institution. Occurrence dataset https://doi.org/10.15468/7m0fvd accessed via GBIF.org on 2020-07-22.
+Cassidy K (2017). CRCM Vertebrate Collection. Version 7.2. Charles R. Conner Museum. Occurrence dataset https://doi.org/10.15468/ybd4r1 accessed via GBIF.org on 2020-07-22.
+Roberts D (2020). CHAS Mammalogy Collection (Arctos). Version 13.39. Chicago Academy of Sciences. Occurrence dataset https://doi.org/10.15468/ebxyjx accessed via GBIF.org on 2020-07-22.
+Demboski J (2020). DMNS Mammal Collection (Arctos). Version 34.39. Denver Museum of Nature & Science. Occurrence dataset https://doi.org/10.15468/bqvk9g accessed via GBIF.org on 2020-07-22.
+Henrici A (2016). CM Vertebrate Paleontology Collection. Carnegie Museums. Occurrence dataset https://doi.org/10.15468/hw4khc accessed via GBIF.org on 2020-07-22.
+UMMZ Mammals Data Group, LSA IT A (2020). University of Michigan Museum of Zoology, Division of Mammals. Version 8.24. University of Michigan Museum of Zoology. Occurrence dataset https://doi.org/10.15468/dx3rcj accessed via GBIF.org on 2020-07-22.
+Fahy K (2016). SBMNH Vertebrate Zoology. Version 5.1. Santa Barbara Museum of Natural History. Occurrence dataset https://doi.org/10.15468/amfnkq accessed via GBIF.org on 2020-07-22.
+Nelson A, Johnson N (2018). Ohio State University Tetrapod Division - Mammal Collection (OSUM). Version 93.36. Museum of Biological Diversity, The Ohio State University. Occurrence dataset https://doi.org/10.15468/jyhwea accessed via GBIF.org on 2020-07-22.
+Naturhistorisches Museum Mainz. Naturhistorisches Museum Mainz, Zoological Collection. Occurrence dataset https://doi.org/10.15468/aaknqu accessed via GBIF.org on 2020-07-22.
+Esselstyn J (2017). LSUMZ Mammals Collection. Louisiana State University Museum of Natural Science. Occurrence dataset https://doi.org/10.15468/wxiqf6 accessed via GBIF.org on 2020-07-22.
+UNIBIO, IBUNAM. CNMA/Colección Nacional de mamíferos. Occurrence dataset https://doi.org/10.15468/rchosl accessed via GBIF.org on 2020-07-22.
+Wimer M, Benson A (2016). USGS Patuxent Wildlife Research Center Seabirds Compendium. Version 1.1. United States Geological Survey. Occurrence dataset https://doi.org/10.15468/w2vk7x accessed via GBIF.org on 2020-07-22.
+Prestridge H (2019). Biodiversity Research and Teaching Collections - TCWC Vertebrates. Version 9.3. Texas A&M University Biodiversity Research and Teaching Collections. Occurrence dataset https://doi.org/10.15468/szomia accessed via GBIF.org on 2020-07-22.
+Khidas K, Shorthouse D (2020). Canadian Museum of Nature Mammal Collection. Version 1.81. Canadian Museum of Nature. Occurrence dataset https://doi.org/10.15468/okgapc accessed via GBIF.org on 2020-07-22.
+Conroy C (2020). MVZ Mammal Collection (Arctos). Version 35.39. Museum of Vertebrate Zoology. Occurrence dataset https://doi.org/10.15468/uwudf9 accessed via GBIF.org on 2020-07-22.
+Krejsa D (2020). Angelo State Natural History Collections (ASNHC) Mammal specimens (Arctos). Version 1.5. Angelo State Natural History Collections (ASNHC). Occurrence dataset https://doi.org/10.15468/vbfxbd accessed via GBIF.org on 2020-07-22.
+Olson L (2020). UAM Mammal Collection (Arctos). Version 34.39. University of Alaska Museum of the North. Occurrence dataset https://doi.org/10.15468/lbixob accessed via GBIF.org on 2020-07-22.
+Reiss J (2017). HSU Vertebrate Museum Mammals Collection. Version 2.3. Humboldt State University. Occurrence dataset https://doi.org/10.15468/p7bz9e accessed via GBIF.org on 2020-07-22.
+Natural History Museum (2020). Natural History Museum (London) Collection Specimens. Occurrence dataset https://doi.org/10.5519/0002965 accessed via GBIF.org on 2020-07-22.
+Gall L (2020). Vertebrate Zoology Division - Mammalogy, Yale Peabody Museum. Yale University Peabody Museum. Occurrence dataset https://doi.org/10.15468/4mm6uc accessed via GBIF.org on 2020-07-22.
+Slade N (2020). KUBI Mammalogy Collection. Version 26.35. University of Kansas Biodiversity Institute. Occurrence dataset https://doi.org/10.15468/a3woj7 accessed via GBIF.org on 2020-07-22.
+McClennen M, Jenkins J, Uhen M (2017). Paleobiology Database. Paleobiology Database. Occurrence dataset https://doi.org/10.15468/jfqhiu accessed via GBIF.org on 2020-07-22.
+Millen B, Seymour K (2018). Palaeobiology - Vertebrate Comparative Osteology Collection - Royal Ontario Museum. Version 20.8. Royal Ontario Museum. Occurrence dataset https://doi.org/10.15468/d6anwc accessed via GBIF.org on 2020-07-22.
+Grant S, Ferguson A (2020). Field Museum of Natural History (Zoology) Mammal Collection. Version 9.11. Field Museum. Occurrence dataset https://doi.org/10.15468/n4zgxw accessed via GBIF.org on 2020-07-22.
+Casassovici A, Brosens D (2020). Diveboard - Scuba diving citizen science observations. Version 54.27. Diveboard. Occurrence dataset https://doi.org/10.15468/tnjrgy accessed via GBIF.org on 2020-07-22.
+Scholes III, Ph.D. E (2015). Macaulay Library Audio and Video Collection. Cornell Lab of Ornithology. Occurrence dataset https://doi.org/10.15468/ckcdpy accessed via GBIF.org on 2020-07-22.
+naturgucker.de. naturgucker. Occurrence dataset https://doi.org/10.15468/uc1apo accessed via GBIF.org on 2020-07-22.
+Trombone T (2016). AMNH Mammal Collections. American Museum of Natural History. Occurrence dataset https://doi.org/10.15468/wu3poe accessed via GBIF.org on 2020-07-22.
+Lanier H, Braun J, King P (2020). Mammals Specimens. Sam Noble Oklahoma Museum of Natural History. Occurrence dataset https://doi.org/10.15468/fmuion accessed via GBIF.org on 2020-07-22.
+Cook J (2020). MSB Mammal Collection (Arctos). Version 35.39. Museum of Southwestern Biology. Occurrence dataset https://doi.org/10.15468/oirgxw accessed via GBIF.org on 2020-07-22.
+Bradley J (2020). UWBM Mammalogy Collection (Arctos). University of Washington Burke Museum. Occurrence dataset https://doi.org/10.15468/qziy3w accessed via GBIF.org on 2020-07-22.
+Millen B, Lim B (2018). Mammalogy Collection - Royal Ontario Museum. Version 11.5. Royal Ontario Museum. Occurrence dataset https://doi.org/10.15468/2rlrvh accessed via GBIF.org on 2020-07-22.
+Harvard University M, Morris P J (2020). Museum of Comparative Zoology, Harvard University. Version 162.218. Museum of Comparative Zoology, Harvard University. Occurrence dataset https://doi.org/10.15468/p5rupv accessed via GBIF.org on 2020-07-22.
+Flannery M, Fong J (2020). CAS Mammalogy (MAM). Version 133.230. California Academy of Sciences. Occurrence dataset https://doi.org/10.15468/dhbozg accessed via GBIF.org on 2020-07-22.
+Feeney R (2019). LACM Vertebrate Collection. Version 18.7. Natural History Museum of Los Angeles County. Occurrence dataset https://doi.org/10.15468/77rmwd accessed via GBIF.org on 2020-07-22.
+Norton B (2016). NCSM Mammals Collection. North Carolina State Museum of Natural Sciences. Occurrence dataset https://doi.org/10.15468/jkjbew accessed via GBIF.org on 2020-07-22.
+Millen B, Seymour K (2018). Palaeobiology - Vertebrate Fossils Collection - Mammalia - Royal Ontario Museum. Version 7.5. Royal Ontario Museum. Occurrence dataset https://doi.org/10.15468/50n0dc accessed via GBIF.org on 2020-07-22.
+Kutner L (2019). NatureServe Network Species Occurrence Data. Version 8.4. NatureServe. Occurrence dataset https://doi.org/10.15468/lysaex accessed via GBIF.org on 2020-07-22.
+Orrell T (2020). NMNH Extant Specimen Records. Version 1.33. National Museum of Natural History, Smithsonian Institution. Occurrence dataset https://doi.org/10.15468/hnhrg3 accessed via GBIF.org on 2020-07-22.
+Hulbert R, FLMNH O (2020). University of Florida Vertebrate Paleontology. Version 1.65. Florida Museum of Natural History. Occurrence dataset https://doi.org/10.15468/nelacx accessed via GBIF.org on 2020-07-22.
+Ueda K (2020). iNaturalist Research-grade Observations. iNaturalist.org. Occurrence dataset https://doi.org/10.15468/ab3s5x accessed via GBIF.org on 2020-07-22.

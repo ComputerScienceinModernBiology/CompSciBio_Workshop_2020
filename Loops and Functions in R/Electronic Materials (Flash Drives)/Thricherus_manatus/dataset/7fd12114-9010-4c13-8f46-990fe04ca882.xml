@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="7fd12114-9010-4c13-8f46-990fe04ca882"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/lysaex</alternateIdentifier>
+        <alternateIdentifier>http://services.natureserve.org/ipt/resource?r=occurrences</alternateIdentifier>
+        <alternateIdentifier>http://services.natureserve.org/ipt/resource.do?r=occurrences</alternateIdentifier>
+        <alternateIdentifier>7fd12114-9010-4c13-8f46-990fe04ca882</alternateIdentifier>
+    <title>NatureServe Network Species Occurrence Data</title>
+    <creator>
+    <individualName>
+<givenName>Lynn</givenName>          <surName>Kutner</surName>
+    </individualName>
+<organizationName>NatureServe</organizationName><positionName>Conservation Data Analyst</positionName>    <address>
+<deliveryPoint>2511 Jefferson Davis Highway, Suite 930</deliveryPoint><city>Arlington</city><administrativeArea>VA</administrativeArea><postalCode>22202</postalCode><country>UNITED_STATES</country>    </address>
+<phone>001-703-797-4804</phone><electronicMailAddress>lynn_kutner@natureserve.org</electronicMailAddress><onlineUrl>http://www.natureserve.org/</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Lynn</givenName>          <surName>Kutner</surName>
+    </individualName>
+<organizationName>NatureServe</organizationName><positionName>Conservation Data Analyst</positionName>    <address>
+<deliveryPoint>2511 Jefferson Davis Highway, Suite 930</deliveryPoint><city>Arlington</city><administrativeArea>VA</administrativeArea><postalCode>22202</postalCode><country>UNITED_STATES</country>    </address>
+<phone>001-703-797-4804</phone><electronicMailAddress>lynn_kutner@natureserve.org</electronicMailAddress><onlineUrl>http://www.natureserve.org/</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Shara</givenName>          <surName>Howie</surName>
+    </individualName>
+<organizationName>NatureServe</organizationName><positionName>MJD Program Manager</positionName>    <address>
+<deliveryPoint>2511 Jefferson Davis Highway, Suite 930</deliveryPoint><city>Arlington</city><administrativeArea>VA</administrativeArea><postalCode>22202</postalCode><country>UNITED_STATES</country>    </address>
+<phone>001-703-908-1800</phone><electronicMailAddress>productsandservices@natureserve.org</electronicMailAddress><onlineUrl>http://www.natureserve.org/</onlineUrl>    <role>CUSTODIAN_STEWARD</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Lynn</givenName>          <surName>Kutner</surName>
+    </individualName>
+<organizationName>NatureServe</organizationName><positionName>Conservation Data Analyst</positionName>    <address>
+<deliveryPoint>2511 Jefferson Davis Highway, Suite 930</deliveryPoint><city>Arlington</city><administrativeArea>VA</administrativeArea><postalCode>22202</postalCode><country>UNITED_STATES</country>    </address>
+<phone>001-703-797-4804</phone><electronicMailAddress>lynn_kutner@natureserve.org</electronicMailAddress><onlineUrl>http://www.natureserve.org/</onlineUrl>    <role>POINT_OF_CONTACT</role>
+    </associatedParty>
+      <pubDate>
+      2019-05-02
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>This dataset consists of &amp;#34;Element Occurrence&amp;#34; (EO) records for rare and endangered species of the United States and Canada that are managed by the NatureServe Network of natural heritage programs and conservation data centers. Occurrences are documented by voucher specimens and other forms of ecological observations, and include spatially explicit data on the location and extent of populations, together with data on abundance and population condition. Due to the potential sensitivity of endangered species locations, only non-sensitive geographic data are provided in this dataset. Species-specific criteria used to define element occurrences, as well as standards for documenting and mapping element occurrences are available on the NatureServe web site at: http://www.natureserve.org/conservation-tools/standards-methods</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>conservation</keyword>
+              <keyword>environment</keyword>
+              <keyword>biodiversity</keyword>
+              <keyword>biota</keyword>
+              <keyword>species</keyword>
+              <keyword>rare</keyword>
+              <keyword>NatureServe</keyword>
+              <keyword>endangered</keyword>
+              <keyword>threatened</keyword>
+              <keyword>NatureServe Network</keyword>
+              <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>These data are made available by NatureServe with permission of the relevant NatureServe Network Programs (natural heritage programs and conservation data centres).</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://www.natureserve.org/</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>North America, United States, Canada</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-168.97</westBoundingCoordinate>
+                      <eastBoundingCoordinate>-40.82</eastBoundingCoordinate>
+                      <northBoundingCoordinate>77.47</northBoundingCoordinate>
+                      <southBoundingCoordinate>8.68</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <generalTaxonomicCoverage>Occurrence data for species and infraspecific taxa in the following groups: animals, vertebrates, mammals, birds, reptiles, amphibians, fish, invertebrates, plants, ferns, conifers, flowering plants, lichens, fungi.</generalTaxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Animalia</taxonRankValue>
+                          <commonName>Animals</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Craniata</taxonRankValue>
+                          <commonName>Vertebrates</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Mandibulata</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Plantae</taxonRankValue>
+                          <commonName>Plants</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Anthophyta</taxonRankValue>
+                          <commonName>Flowering Plants</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Coniferophyta</taxonRankValue>
+                          <commonName>Conifers</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Filicinophyta</taxonRankValue>
+                          <commonName>Ferns</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Bryophyta</taxonRankValue>
+                          <commonName>Mosses</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Hepatophyta</taxonRankValue>
+                          <commonName>Liverworts</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Anthocerophyta</taxonRankValue>
+                          <commonName>Hornworts</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Fungi</taxonRankValue>
+                          <commonName>Fungi</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Mammalia</taxonRankValue>
+                          <commonName>Mammals</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Aves</taxonRankValue>
+                          <commonName>Birds</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Chelonia</taxonRankValue>
+                          <commonName>Turtles</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Crocodylia</taxonRankValue>
+                          <commonName>Crocodilians</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Reptilia</taxonRankValue>
+                          <commonName>Reptiles</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Amphibia</taxonRankValue>
+                          <commonName>Amphibians</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Mollusca</taxonRankValue>
+                          <commonName>Molluscs</commonName>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <purpose>
+          <para>To collect the best-available information about the known location, viability, and other information on at-risk species populations in the United States and Canada.</para>
+      </purpose>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>biannually</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Lynn</givenName>          <surName>Kutner</surName>
+    </individualName>
+<organizationName>NatureServe</organizationName><positionName>Conservation Data Analyst</positionName>    <address>
+<deliveryPoint>2511 Jefferson Davis Highway, Suite 930</deliveryPoint><city>Arlington</city><administrativeArea>VA</administrativeArea><postalCode>22202</postalCode><country>UNITED_STATES</country>    </address>
+<phone>001-703-797-4804</phone><electronicMailAddress>lynn_kutner@natureserve.org</electronicMailAddress><onlineUrl>http://www.natureserve.org/</onlineUrl>      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para></para>
+                </description>
+            </methodStep>
+      </methods>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2020-07-22T19:11:54Z</dateStamp>
+      <citation>Kutner L (2019). NatureServe Network Species Occurrence Data. Version 8.4. NatureServe. Occurrence dataset https://doi.org/10.15468/lysaex accessed via GBIF.org on 2020-07-22.</citation>
+              <resourceLogoUrl>https://connect.natureserve.org/sites/default/files/NatureServe2_logo.gif</resourceLogoUrl>
+              <formationPeriod>1970 - current</formationPeriod>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>
