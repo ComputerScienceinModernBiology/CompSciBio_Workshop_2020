@@ -45,4 +45,4 @@ If you have Windows, you can download **MobaXterm** from the [MobaXterm webpage]
 
 If you have Mac, you can download **Filezilla** from the [Filezilla webpage](https://filezilla-project.org/download.php?platform=osx). This can also be installed in windows.
 
-**MobaxTERM and Filezilla** will allow you to access and transfer files from the HPC cluster. You'll learn how to configure them througout the course.
+**MobaXterm and Filezilla** will allow you to access and transfer files from the HPC cluster. You'll learn how to configure them througout the course.
