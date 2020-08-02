@@ -6,11 +6,11 @@ Welcome to our workshop's Github!
 
 As you may know, this year Miami University (MU) and the University of Oklahoma (OU) had allied to give you a broader range of introductory and advanced courses, covering several topics on **Computer Science in Modern Biology**. To the students that registered for classes before the deadline, we sent by mail the printed materials and a flash-drive containing the electronic resources and installers needed for each course. In this github page you will be able to access those materials electronically, in case you prefer it or you have not received the mailed materials yet.
 
-## Make sure you have all the materials at hand by the beginning of the workshop, either their printed or electronic versions.
-## We encourage you to install all the required software prior the beginning of the workshop.
-## You will see a folder with some short installation instructions, and feel free to contact us at compscibio2020@gmail.com if you have any issues with the installation process.
-#### *All software is free or have a student version available, you don't have to pay for anything*
-#### *All newer Macs (2016-present) are 64 bit. The majority of windows computers are also 64 bit (it is a requirement for computers with 4 GB of RAM or more)*
+#### Make sure you have all the materials at hand by the beginning of the workshop, either their printed or electronic versions.
+#### We encourage you to install all the required software prior the beginning of the workshop.
+#### You will see a folder with some short installation instructions. Feel free to contact us at compscibio2020@gmail.com if you have any issues with the installation process.
+##### *All software is free or have a student version available, you don't have to pay for anything*
+##### *All newer Macs (2016-present) are 64 bit. The majority of windows computers are also 64 bit (it is a requirement for computers with 4 GB of RAM or more)*
 
 ### R and Rstudio
 *Courses requiring them*: Introduction to R (part I and part II), Niche Modeling (Pikas and Beetles), Loops and Functions in R, Data Management, Data Visualization, Advanced GIS, and Conservation Biology.
