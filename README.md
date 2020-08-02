@@ -1,6 +1,6 @@
 # Workshop: Computer Science in Modern Biology
 
-![CompSciBio logo](https://github.com/ComputerScienceinModernBiology/CompSciBio_Workshop_2020/blob/master/Comp%20Sci%20Logo.png)
+<div style="text-align:center"><img src="https://github.com/ComputerScienceinModernBiology/CompSciBio_Workshop_2020/blob/master/Comp%20Sci%20Logo.png" /></div>
 
 Welcome to our workshop Github!
 
