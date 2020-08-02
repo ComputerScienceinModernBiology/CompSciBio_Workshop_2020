@@ -16,12 +16,14 @@ As you know, this year Miami University (MU) and the University of Oklahoma (OU)
 *Courses requiring them*: Introduction to R (part I and part II), Niche Modeling (Pikas and Beetles), Loops and Functions in R, Data Management, Data Visualization, Advanced GIS, and Conservation Biology.
 
 You can download **R** from the [r-project webpage](https://cloud.r-project.org/). Make sure you install it before Rstudio. Download the appropriate version for your Operating System.
+
 You can download **Rstudio** from the [Rstudio webpage](https://rstudio.com/products/rstudio/download/#download). Rstudio requires a valid R installation. In simple terms, it will give R a new and more easy to organize look. We generally use Rstudio as a way to work with R. Again, download and install the proper version according to your operating system.
 
 ### Python and Wing
 *Courses requiring them*: Introduction to Python (Part I and II)
 
 You can download **Python** from the [python webpage](https://www.python.org/downloads/release/python-384/). This link will direct you to the **python version 3.8.4** download page. Go to the end and you will see a *files* section. Click on the link according to your operating system.
+
 You can download **Wing** from the [wing webpage](https://wingware.com/downloads/wing-personal). Download and install the appropriate version for your operating system. Wing is a software that allows us to access and work with the python language in a more organized way (similar to what Rstudio does with R).
 
 ### QGIS (Quantum GIS)
@@ -38,6 +40,9 @@ You can download **MEGA** from the [MEGA software page](https://www.megasoftware
 *Courses requiring it*: Introduction to HPC (High Performance Computing - MU only).
 
 You can download **NoMachine** from the [NoMachine webpage](https://www.nomachine.com/). This software will allow you to access the MU HPC cluster, and work on it as you normally would on a desktop or laptop. If you are in this course, your miami ID was already granted access to the cluster. You'll learn how to configure it and more througout the course.
+
 If you have Windows, you can download **MobaXterm** from the [MobaXterm webpage](https://mobaxterm.mobatek.net/download-home-edition.html). Download the installer edition.
+
 If you have Mac, you can download **Filezilla** from the [Filezilla webpage](https://filezilla-project.org/download.php?platform=osx). This can also be installed in windows.
+
 **MobaxTERM and Filezilla** will allow you to access and transfer files from the HPC cluster. You'll learn how to configure them througout the course.
