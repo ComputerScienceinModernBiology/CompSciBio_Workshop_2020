@@ -2,9 +2,9 @@
 
 <div style="text-align:center"><img src="https://github.com/ComputerScienceinModernBiology/CompSciBio_Workshop_2020/blob/master/Comp%20Sci%20Logo.png" /></div>
 
-Welcome to our workshop Github!
+Welcome to our workshop's Github!
 
-As you know, this year Miami University (MU) and the University of Oklahoma (OU) had allied to give you a broader range of introductory and advanced courses, covering several topics on **Computer Science in Modern Biology**. To the students that registered for classes before the deadline, we sent by mail the printed materials and a flash-drive containing the electronic resources and installers needed for each course. In this github page you will be able to access those materials electronically, in case you prefer it or you have not received the mailed materials yet.
+As you may know, this year Miami University (MU) and the University of Oklahoma (OU) had allied to give you a broader range of introductory and advanced courses, covering several topics on **Computer Science in Modern Biology**. To the students that registered for classes before the deadline, we sent by mail the printed materials and a flash-drive containing the electronic resources and installers needed for each course. In this github page you will be able to access those materials electronically, in case you prefer it or you have not received the mailed materials yet.
 
 ## Make sure you have all the materials at hand by the beginning of the workshop, either their printed or electronic versions.
 ## We encourage you to install all the required software prior the beginning of the workshop.
