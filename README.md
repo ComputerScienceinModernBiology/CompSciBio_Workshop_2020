@@ -13,11 +13,16 @@ As you may know, this year Miami University (MU) and the University of Oklahoma 
 ##### *All newer Macs (2016-present) are 64 bit. The majority of windows computers are also 64 bit (it is a requirement for computers with 4 GB of RAM or more)*
 
 ### R and Rstudio
-*Courses requiring them*: Introduction to R (part I and part II), Niche Modeling (Pikas and Beetles), Loops and Functions in R, Data Management, Data Visualization, Advanced GIS, and Conservation Biology.
+*Courses requiring them*: Introduction to R (part I and part II), Ecological Niche Modeling (ENM Pikas and Beetles), Loops and Functions in R, Data Management, Data Visualization, Advanced GIS, and Conservation Biology.
 
 You can download **R** from the [r-project webpage](https://cloud.r-project.org/). Make sure you install it before Rstudio. Download the appropriate version for your Operating System.
 
 You can download **Rstudio** from the [Rstudio webpage](https://rstudio.com/products/rstudio/download/#download). Rstudio requires a valid R installation. In simple terms, it will give R a new and more easy to organize look. We generally use Rstudio as a way to work with R. Again, download and install the proper version according to your operating system.
+
+### Java JDK (Java Development Kit)
+*Courses requiring it*: Ecological Niche Modeling (Pikas and Beetles), Loops and Functions in R, Advanced GIS
+
+You can download the **Java JDK** from the [Oracle webpage](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html). This module is required by R to read and create different types of files (like excel datasets and maps), and run *MAXENT* (essential for the ENM courses). Make sure you download and install the appropriate version for your operative system.
 
 ### Python and Wing
 *Courses requiring them*: Introduction to Python (Part I and II)
