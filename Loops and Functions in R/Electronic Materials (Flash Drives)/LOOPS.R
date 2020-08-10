@@ -79,7 +79,7 @@ for(){}
 ######## Exercise 4: Lets Join Data from different sources! #######
 ###################################################################
 
-# You will use data from the species of manatee Thricherus manatus
+# You will use data from the species of manatee Trichechus manatus
 # In the folder called Splitted_Tmanatus
 
 # Example of joining two datasets

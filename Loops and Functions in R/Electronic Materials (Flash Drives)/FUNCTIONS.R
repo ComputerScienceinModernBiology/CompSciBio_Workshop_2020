@@ -135,4 +135,4 @@ map_years <- function() {
 }
 
 # Try your function over the Python bivittatus data
-# If we have enough time, try it over the Tricherus manatus data
+# If we have enough time, try it over the Trichechus manatus data
